@@ -274,7 +274,7 @@
         // Function to fetch and display the Markdown content
         async function loadMarkdown() {
             try {
-                const response = await fetch('21.md');
+                const response = await fetch('content21.md');
 
                 const markdown = await response.text();
                 const htmlContent = marked(markdown);
