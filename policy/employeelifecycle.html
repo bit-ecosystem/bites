@@ -90,6 +90,8 @@
             bottom: 0;
         }
     </style>
+    <!-- Include the marked library from a CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 
 <body>
@@ -235,6 +237,7 @@
         <p>This policy complies with all applicable labor laws and regulations. Any changes to the policy will be
             communicated to employees in a timely manner.</p>
     </section>
+    <div id="21">here</div>
 
 
     <script>
@@ -255,11 +258,11 @@
                 document.getElementById("tab" + tabName).className += " active";
             }
         }
-    
+
         // Function to check the URL hash and open the corresponding tab
         function checkHash() {
             var hash = window.location.hash.substring(1);
-        //    alert(hash);
+            //    alert(hash);
             if (hash) {
                 document.getElementsByClassName("tablinks")[hash].click();
             } else {
@@ -267,9 +270,29 @@
                 document.getElementsByClassName("tablinks")[0].click();
             }
         }
-    
-        // Check the hash on page load
-        window.onload = checkHash;
+
+        // Function to fetch and display the Markdown content
+        async function loadMarkdown() {
+            try {
+                const response = await fetch('21.md');
+
+                const markdown = await response.text();
+                const htmlContent = marked(markdown);
+                alert (markdown);
+                document.getElementById('21').innerHTML = htmlContent;
+            } catch (error) {
+                console.error('Error loading Markdown content:', error);
+                alert ('resonse');
+            }
+        }
+
+            // Combined function to call both loadMarkdownFiles and checkHash
+    function initialize() {
+        loadMarkdown();
+        checkHash();
+    }
+    // Call the combined function on window load
+    window.onload = initialize;
     </script>
 
 </body>
