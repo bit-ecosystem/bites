@@ -1,9 +1,9 @@
 {
-    "inputs": "Resource A, Resource B",
-    "whom": "Team X",
+    "inputs": "What are the inputs?",
+    "whom": "With Whom? (Stakeholders in this Process)",
     "process": "Step 1, Step 2",
-    "what": "Task A, Task B",
-    "how": "Method 1, Method 2",
+    "what": "With What? (Materials & Equipment needed)",
+    "how": "Uses what Procedures? (SOPs, Support material includes, procedures, instructions, specific methods, etc.)",
     "outputs": "Product X",
     "support": "Procedure A, Method B",
     "results": "Outcome 1"
