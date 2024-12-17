@@ -1,10 +1,10 @@
 {
-"inputs":	"Travel Receipts\nTravel Itinerary\nEmployee ID\nClaim Form",
-"whom":	"Employee\nLine Manager/Supervisor\nHR Department\nFinance Department",
-"process":	"Step 1: Employee submits a travel claim form along with receipts and travel itinerary.\nStep 2: Line Manager/Supervisor reviews the submitted documents for completeness and accuracy.\nStep 3: Line Manager/Supervisor approves or rejects the claim based on company travel policy.\nStep 4: Approved claims are forwarded to the HR Department for further verification.\nStep 5: HR Department verifies the claim and forwards it to the Finance Department.\nStep 6: Finance Department processes the claim and schedules reimbursement.\nStep 7: Employee receives reimbursement.",
-"what":	"Submission of Claim Form\nVerification of Documents\nApproval/Rejection of Claim\nProcessing of Approved Claims\nReimbursement to Employee",
-"how":	"Online HR Portal\nEmail Submission\nManual Review\nFinancial Software for Processing Payments\n<a href='https://bit-ecosystem.github.io/bites/turtle/turtle.html?on=cmed'>Direct Deposit or Check Issuance</a>",
-"outputs":	"Approved Claims\nRejected Claims\nReimbursement Payments",
-"support":	"Company Travel Policy\nHR Guidelines for Claim Review\nFinance Procedures for Reimbursement\nIT Support for HR Portal",
-"results":	"Timely Reimbursement to Employees\nAccurate Record Keeping\nEmployee Satisfaction\nCompliance with Company Policies"
+"inputs":	"Travel Receipts<br>Travel Itinerary<br>Employee ID<br>Claim Form",
+"whom":	"Employee<br>Line Manager/Supervisor<br>HR Department<br>Finance Department",
+"process":	"Step 1: Employee submits a travel claim form along with receipts and travel itinerary.<br>Step 2: Line Manager/Supervisor reviews the submitted documents for completeness and accuracy.<br>Step 3: Line Manager/Supervisor approves or rejects the claim based on company travel policy.<br>Step 4: Approved claims are forwarded to the HR Department for further verification.<br>Step 5: HR Department verifies the claim and forwards it to the Finance Department.<br>Step 6: Finance Department processes the claim and schedules reimbursement.<br>Step 7: Employee receives reimbursement.",
+"what":	"Submission of Claim Form<br>Verification of Documents<br>Approval/Rejection of Claim<br>Processing of Approved Claims<br>Reimbursement to Employee",
+"how":	"Online HR Portal<br>Email Submission<br>Manual Review<br>Financial Software for Processing Payments<br><a href='https://bit-ecosystem.github.io/bites/turtle/turtle.html?on=cmed'>Direct Deposit or Check Issuance</a>",
+"outputs":	"Approved Claims<br>Rejected Claims<br>Reimbursement Payments",
+"support":	"Company Travel Policy<br>HR Guidelines for Claim Review<br>Finance Procedures for Reimbursement<br>IT Support for HR Portal",
+"results":	"Timely Reimbursement to Employees<br>Accurate Record Keeping<br>Employee Satisfaction<br>Compliance with Company Policies"
 }
