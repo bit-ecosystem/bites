@@ -112,6 +112,7 @@
             overflow: hidden;
         }
     </style>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 
 <body>
@@ -139,13 +140,13 @@
         <ul>
             <li><strong>2.1 Recruitment lifecycle</strong>
                 <ul>
-                    <iframe src="./interview.txt" ></iframe>
+                    <iframe src="./interview.txt"></iframe>
                     <li>Job Postings: All job openings will be posted internally and externally to attract a diverse
                         pool of candidates.</li>
                     <li>Application Process: Candidates must submit a resume and cover letter through our online
                         application system.</li>
-                        <h2>Display TXT Content</h2>
-<div id="txtContent">Loading...</div>
+                    <h2>Display TXT Content</h2>
+                    <div id="txtContent">Loading...</div>
 
                     <li>Selection Criteria: Candidates will be evaluated based on their qualifications, experience, and
                         alignment with our company values.</li>
@@ -155,7 +156,9 @@
                 <ul>
                     <li>Interview Panels: Interviews will be conducted by a panel of employees from relevant
                         departments.<h2>Embed PDF using &lt;iframe&gt; Tag</h2>
-                        <iframe src="..\samples\interview-evaluation-form.pdf" width="800" height="400" style="border: none;"></iframe></li>
+                        <iframe src="..\samples\interview-evaluation-form.pdf" width="800" height="400"
+                            style="border: none;"></iframe>
+                    </li>
                     <li>Interview Process: The process may include phone screenings, in-person interviews, and skills
                         assessments.</li>
                     <li>Feedback: Interviewers will provide feedback on each candidate to ensure a fair and thorough
@@ -260,6 +263,9 @@
             </li>
         </ul>
     </div>
+    <h2>Display Markdown Content</h2>
+<div id="mdContent">Loading...</div>
+
     <section id="Compliance">
         <h2>Legal and Compliance</h2>
         <p>This policy complies with all applicable labor laws and regulations. Any changes to the policy will be
@@ -320,23 +326,42 @@
                 document.getElementsByClassName("tablinks")[0].click();
             }
         }
-        function injectText(){
+        function injectText() {
             fetch('interview.txt')
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('txtContent').textContent = data;
-        })
-        .catch(error => {
-            document.getElementById('txtContent').textContent = 'Error loading text file.';
-            alert(error);
-            console.error('Error fetching the text file:', error);
-        });
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('txtContent').textContent = data;
+                })
+                .catch(error => {
+                    document.getElementById('txtContent').textContent = 'Error loading text file.';
+                    alert(error);
+                    console.error('Error fetching the text file:', error);
+                });
+        }
+        function injectMarkdown() {
+            fetch('yourfile.md')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok ' + response.statusText);
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    // Convert Markdown to HTML
+                    const htmlContent = marked(data);
+                    document.getElementById('mdContent').innerHTML = htmlContent;
+                })
+                .catch(error => {
+                    document.getElementById('mdContent').textContent = 'Error loading Markdown file.';
+                    console.error('Error fetching the Markdown file:', error);
+                });
         }
 
         // Combined function to call both loadMarkdownFiles and checkHash
         function initialize() {
             checkHash();
             injectText();
+            injectMarkdown();
         }
 
         // Call the combined function on window load
