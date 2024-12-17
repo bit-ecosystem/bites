@@ -1,0 +1,6 @@
+                    <li>Job Postings: All job openings will be posted internally and externally to attract a diverse
+                        pool of candidates.</li>
+                    <li>Application Process: Candidates must submit a resume and cover letter through our online
+                        application system.</li>
+                    <li>Selection Criteria: Candidates will be evaluated based on their qualifications, experience, and
+                        alignment with our company values.</li>

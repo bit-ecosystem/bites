@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employment Lifecycle Policy</title>
+    <style>
+        :root {
+            --light-green: #a8d5ba;
+            --dark-green: #4caf50;
+            --light-grey: #c9c9c9;
+            --dark-grey: #333;
+        }
+
+        body {
+            font-family: 'Calibri', sans-serif;
+            font-size: 10pt;
+            line-height: 1.5;
+            color: #333;
+            margin: 20px;
+            background-color: var(--light-grey);
+        }
+
+        .tab {
+            overflow: hidden;
+            border-bottom: 1px solid var(--dark-grey);
+        }
+
+        .tab button {
+            background-color: inherit;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            color: var(--dark-grey);
+        }
+
+        .tab button:hover {
+            background-color: var(--light-green);
+        }
+
+        .tab button.active {
+            background-color: var(--dark-green);
+            color: white;
+        }
+
+        /* Tab content styles */
+        .tabcontent {
+            display: none;
+            padding: 20px;
+            border: 1px solid var(--dark-grey);
+            border-top: none;
+            background-color: white;
+        }
+
+        ul {
+            list-style-type: none;
+            margin-bottom: 10px;
+        }
+
+        li {
+            padding: 0;
+        }
+
+        section {
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+
+        h1,
+        h2 {
+            color: var(--dark-green);
+        }
+
+        h3 {
+            color: var(--dark-grey);
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: var(--dark-green);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Accordion styles */
+        .accordion {
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            transition: 0.4s;
+        }
+
+        .active,
+        .accordion:hover {
+            background-color: var(--light-green);
+        }
+
+        .panel {
+            padding: 0 10px;
+            display: none;
+            background-color: white;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Employment Lifecycle Policy</h1>
+
+    <section id="Introduction">
+        <h2>Introduction</h2>
+        <p>This policy outlines the procedures and guidelines for managing the employment lifecycle at [Company Name],
+            from hiring to offboarding. Our goal is to ensure a smooth and consistent experience for all employees
+            throughout their tenure with the company.</p>
+    </section>
+
+
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Hiring')">Hiring</button>
+        <button class="tablinks" onclick="openTab(event, 'Onboarding')">Onboarding</button>
+        <button class="tablinks" onclick="openTab(event, 'Employment')">Employment</button>
+        <button class="tablinks" onclick="openTab(event, 'Offboarding')">Offboarding</button>
+    </div>
+
+
+    <div id="Hiring" class="tabcontent">
+        <h3>Pre-Hiring</h3>
+        <ul>
+            <li><strong>2.1 Recruitment lifecycle</strong>
+                <ul>
+                    <li>Job Postings: All job openings will be posted internally and externally to attract a diverse
+                        pool of candidates.</li>
+                    <li>Application Process: Candidates must submit a resume and cover letter through our online
+                        application system.</li>
+                    <li>Selection Criteria: Candidates will be evaluated based on their qualifications, experience, and
+                        alignment with our company values.</li>
+                </ul>
+            </li>
+            <li><strong>2.2 Interviewing</strong>
+                <ul>
+                    <li>Interview Panels: Interviews will be conducted by a panel of employees from relevant
+                        departments.<h2>Embed PDF using &lt;iframe&gt; Tag</h2>
+                        <iframe src="..\samples\interview-evaluation-form.pdf" width="800" height="400" style="border: none;"></iframe></li>
+                    <li>Interview Process: The process may include phone screenings, in-person interviews, and skills
+                        assessments.</li>
+                    <li>Feedback: Interviewers will provide feedback on each candidate to ensure a fair and thorough
+                        evaluation.</li>
+                </ul>
+            </li>
+        </ul>
+        <h3>Hiring</h3>
+        <ul>
+            <li><strong>2.3 Offer and Acceptance</strong>
+                <ul>
+                    <li>Job Offers: Successful candidates will receive a formal job offer outlining the terms of
+                        employment.</li>
+                    <li>Acceptance: Candidates must sign and return the offer letter to confirm their acceptance.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div id="Onboarding" class="tabcontent">
+        <h3>Onboarding</h3>
+        <ul>
+            <li><strong>3.1 Orientation</strong>
+                <ul>
+                    <li>Welcome Package: New employees will receive a welcome package with essential information about
+                        the company.</li>
+                    <li>Orientation Sessions: New hires will attend orientation sessions to learn about company
+                        policies, culture, and expectations.</li>
+                </ul>
+            </li>
+            <li><strong>3.2 Training</strong>
+                <ul>
+                    <li>Initial Training: New employees will undergo initial training specific to their role.</li>
+                    <li>Ongoing Training: Employees will have access to continuous learning and development
+                        opportunities.</li>
+                </ul>
+            </li>
+            <li><strong>3.3 Probation Period</strong>
+                <ul>
+                    <li>Duration: New employees will be on probation for the first [number] months of employment.</li>
+                    <li>Evaluation: Performance will be evaluated at the end of the probation period to determine
+                        continued employment.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div id="Employment" class="tabcontent">
+        <h3>Employment</h3>
+        <ul>
+            <li><strong>4.1 Performance Management</strong>
+                <ul>
+                    <li>Performance Reviews: Regular performance reviews will be conducted to provide feedback and set
+                        goals.</li>
+                    <li>Development Plans: Employees will work with their managers to create development plans for
+                        career growth.</li>
+                </ul>
+            </li>
+            <li><strong>4.2 Compensation and Benefits</strong>
+                <ul>
+                    <li>Salary Reviews: Salaries will be reviewed annually based on performance and market benchmarks.
+                    </li>
+                    <li>Benefits: Employees are eligible for a comprehensive benefits package, including health
+                        insurance, retirement plans, and other perks.</li>
+                </ul>
+            </li>
+            <li><strong>4.3 Employee Relations</strong>
+                <ul>
+                    <li>Grievance Procedures: Employees can raise concerns through the formal grievance procedure.</li>
+                    <li>Conflict Resolution: The company provides resources for resolving workplace conflicts amicably.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div id="Offboarding" class="tabcontent">
+        <h3>Offboarding</h3>
+        <ul>
+            <li><strong>5.1 Resignation</strong>
+                <ul>
+                    <li>Notice Period: Employees are required to provide a [number]-week notice of resignation.</li>
+                    <li>Exit Interview: An exit interview will be conducted to gather feedback and insights.</li>
+                </ul>
+            </li>
+            <li><strong>5.2 Termination</strong>
+                <ul>
+                    <li>Grounds for Termination: Employees may be terminated for performance issues, misconduct, or
+                        other valid reasons.</li>
+                    <li>Process: The termination process will be conducted in accordance with company policies and legal
+                        requirements.</li>
+                </ul>
+            </li>
+            <li><strong>5.3 Final Steps</strong>
+                <ul>
+                    <li>Return of Property: Employees must return all company property, including keys, ID badges, and
+                        equipment.</li>
+                    <li>Final Paycheck: The final paycheck will include any outstanding wages and accrued benefits.</li>
+                    <li>Benefits Continuation: Information on continuing benefits, such as health insurance, will be
+                        provided.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <section id="Compliance">
+        <h2>Legal and Compliance</h2>
+        <p>This policy complies with all applicable labor laws and regulations. Any changes to the policy will be
+            communicated to employees in a timely manner.</p>
+    </section>
+    <div id="Recruitment Lifecycle">
+        <button class="accordion">Pre-Hiring</button><!-- Accordion button for -->
+        <!-- Content panel for -->
+        <div class="panel">
+            <ul>
+                <li>Job Postings: All job openings will be posted internally and externally to attract a diverse
+                    pool of candidates.</li>
+                <li>Application Process: Candidates must submit a resume and cover letter through our online
+                    application system.</li>
+                <li>Selection Criteria: Candidates will be evaluated based on their qualifications, experience,
+                    and
+                    alignment with our company values.</li>
+            </ul>
+        </div>
+        <button class="accordion">Pre-Hiring</button><!-- Accordion button for -->
+        <div class="panel">
+            <ul>
+                <li>Interview Panels: Interviews will be conducted by a panel of employees from relevant
+                    departments.</li>
+                <li>Interview Process: The process may include phone screenings, in-person interviews, and skills
+                    assessments.</li>
+                <li>Feedback: Interviewers will provide feedback on each candidate to ensure a fair and thorough
+                    evaluation.</li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            if (evt) {
+                evt.currentTarget.className += " active";
+            } else {
+                document.getElementById("tab" + tabName).className += " active";
+            }
+        }
+
+        // Function to check the URL hash and open the corresponding tab
+        function checkHash() {
+            var hash = window.location.hash.substring(1);
+            if (hash) {
+                document.getElementsByClassName("tablinks")[hash].click();
+            } else {
+                // Open the first tab by default if no hash is present
+                document.getElementsByClassName("tablinks")[0].click();
+            }
+        }
+
+        // Combined function to call both loadMarkdownFiles and checkHash
+        function initialize() {
+            checkHash();
+        }
+
+        // Call the combined function on window load
+        window.onload = initialize;
+
+        // Accordion script
+        var acc = document.getElementsByClassName("accordion");
+        for (var i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>

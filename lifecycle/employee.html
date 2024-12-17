@@ -61,7 +61,6 @@
         }
 
         li {
-
             padding: 0;
         }
 
@@ -89,9 +88,30 @@
             width: 100%;
             bottom: 0;
         }
+
+        /* Accordion styles */
+        .accordion {
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            transition: 0.4s;
+        }
+
+        .active,
+        .accordion:hover {
+            background-color: var(--light-green);
+        }
+
+        .panel {
+            padding: 0 10px;
+            display: none;
+            background-color: white;
+            overflow: hidden;
+        }
     </style>
-    <!-- Include the marked library from a CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 
 <body>
@@ -115,9 +135,9 @@
 
 
     <div id="Hiring" class="tabcontent">
-        <h3>Hiring</h3>
+        <h3>Pre-Hiring</h3>
         <ul>
-            <li><strong>2.1 Recruitment</strong>
+            <li><strong>2.1 Recruitment lifecycle</strong>
                 <ul>
                     <li>Job Postings: All job openings will be posted internally and externally to attract a diverse
                         pool of candidates.</li>
@@ -130,13 +150,17 @@
             <li><strong>2.2 Interviewing</strong>
                 <ul>
                     <li>Interview Panels: Interviews will be conducted by a panel of employees from relevant
-                        departments.</li>
+                        departments.<h2>Embed PDF using &lt;iframe&gt; Tag</h2>
+                        <iframe src="..\samples\interview-evaluation-form.pdf" width="800" height="400" style="border: none;"></iframe></li>
                     <li>Interview Process: The process may include phone screenings, in-person interviews, and skills
                         assessments.</li>
                     <li>Feedback: Interviewers will provide feedback on each candidate to ensure a fair and thorough
                         evaluation.</li>
                 </ul>
             </li>
+        </ul>
+        <h3>Hiring</h3>
+        <ul>
             <li><strong>2.3 Offer and Acceptance</strong>
                 <ul>
                     <li>Job Offers: Successful candidates will receive a formal job offer outlining the terms of
@@ -237,9 +261,32 @@
         <p>This policy complies with all applicable labor laws and regulations. Any changes to the policy will be
             communicated to employees in a timely manner.</p>
     </section>
-    <div id="21">here</div>
-
-
+    <div id="Recruitment Lifecycle">
+        <button class="accordion">Pre-Hiring</button><!-- Accordion button for -->
+        <!-- Content panel for -->
+        <div class="panel">
+            <ul>
+                <li>Job Postings: All job openings will be posted internally and externally to attract a diverse
+                    pool of candidates.</li>
+                <li>Application Process: Candidates must submit a resume and cover letter through our online
+                    application system.</li>
+                <li>Selection Criteria: Candidates will be evaluated based on their qualifications, experience,
+                    and
+                    alignment with our company values.</li>
+            </ul>
+        </div>
+        <button class="accordion">Pre-Hiring</button><!-- Accordion button for -->
+        <div class="panel">
+            <ul>
+                <li>Interview Panels: Interviews will be conducted by a panel of employees from relevant
+                    departments.</li>
+                <li>Interview Process: The process may include phone screenings, in-person interviews, and skills
+                    assessments.</li>
+                <li>Feedback: Interviewers will provide feedback on each candidate to ensure a fair and thorough
+                    evaluation.</li>
+            </ul>
+        </div>
+    </div>
     <script>
         function openTab(evt, tabName) {
             var i, tabcontent, tablinks;
@@ -262,7 +309,6 @@
         // Function to check the URL hash and open the corresponding tab
         function checkHash() {
             var hash = window.location.hash.substring(1);
-            //    alert(hash);
             if (hash) {
                 document.getElementsByClassName("tablinks")[hash].click();
             } else {
@@ -271,28 +317,27 @@
             }
         }
 
-        // Function to fetch and display the Markdown content
-        async function loadMarkdown() {
-            try {
-                const response = await fetch('content21.md');
-
-                const markdown = await response.text();
-                const htmlContent = marked(markdown);
-                alert (markdown);
-                document.getElementById('21').innerHTML = htmlContent;
-            } catch (error) {
-                console.error('Error loading Markdown content:', error);
-                alert ('resonse');
-            }
+        // Combined function to call both loadMarkdownFiles and checkHash
+        function initialize() {
+            checkHash();
         }
 
-            // Combined function to call both loadMarkdownFiles and checkHash
-    function initialize() {
-        loadMarkdown();
-        checkHash();
-    }
-    // Call the combined function on window load
-    window.onload = initialize;
+        // Call the combined function on window load
+        window.onload = initialize;
+
+        // Accordion script
+        var acc = document.getElementsByClassName("accordion");
+        for (var i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
     </script>
 
 </body>
