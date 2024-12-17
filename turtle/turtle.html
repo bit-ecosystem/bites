@@ -61,14 +61,14 @@
                 const response = await fetch(fileName);
                 const data = await response.json();
 
-                document.getElementById('inputs').innerText = data.inputs;
-                document.getElementById('whom').innerText = data.whom;
-                document.getElementById('process').innerText = data.process;
-                document.getElementById('what').innerText = data.what;
-                document.getElementById('how').innerText = data.how;
-                document.getElementById('outputs').innerText = data.outputs;
-                document.getElementById('support').innerText = data.support;
-                document.getElementById('results').innerText = data.results;
+                document.getElementById('inputs').innerHTML = data.inputs;
+                document.getElementById('whom').innerHTML = data.whom;
+                document.getElementById('process').innerHTML = data.process;
+                document.getElementById('what').innerHTML = data.what;
+                document.getElementById('how').innerHTML = data.how;
+                document.getElementById('outputs').innerHTML = data.outputs;
+                document.getElementById('support').innerHTML = data.support;
+                document.getElementById('results').innerHTML = data.results;
             } catch (error) {
                 console.error('Error fetching or parsing JSON data:', error);
             }
