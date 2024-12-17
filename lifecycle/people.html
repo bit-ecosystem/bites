@@ -348,7 +348,7 @@
                 })
                 .then(data => {
                     // Convert Markdown to HTML
-                    const htmlContent = marked(data);
+                    const htmlContent = data;
                     document.getElementById('mdContent').innerHTML = htmlContent;
                 })
                 .catch(error => {
