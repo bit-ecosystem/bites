@@ -60,10 +60,7 @@
 
                 const response = await fetch(fileName);
                 const data = await response.json();
-                alert(file1);
-                alert(fileName);
-                alert(data);
-                
+
                 document.getElementById('inputs').innerText = data.inputs;
                 document.getElementById('whom').innerText = data.whom;
                 document.getElementById('process').innerText = data.process;
