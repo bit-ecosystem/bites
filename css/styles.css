@@ -71,8 +71,9 @@
     flex-grow: 1;
     display: flex;
     align-items: center;
-    overflow-y: auto; /* Enable vertical scrolling */
-    max-height: 100px; /* Set a fixed height */
+    overflow-y: hidden; /* Hide overflow initially */
+    max-height: 25vh; /* Set to 25% of viewport height */
+    transition: max-height 0.3s ease; /* Smooth transition */
     justify-content: center;
 }
 
