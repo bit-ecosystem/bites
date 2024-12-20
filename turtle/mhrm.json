@@ -1,0 +1,13 @@
+{
+    "turtle": {
+        "brief": "This process describes the steps involved in requesting a new job position within the organization.",
+        "inputs": "Departmental Needs Assessment<br>Job Description Draft<br>Budget Approval<br>Organizational Chart",
+        "process": "Step 1: Identify the need for a new position within the department.<br>Step 2: Draft a job description outlining the responsibilities and qualifications.<br>Step 3: Obtain budget approval from the finance department.<br>Step 4: Submit the job position request to the HR department.<br>Step 5: HR reviews the request and job description.<br>Step 6: HR posts the job opening internally and externally.<br>Step 7: HR screens applications and conducts initial interviews.<br>Step 8: HR forwards shortlisted candidates to the hiring manager.<br>Step 9: Hiring manager conducts final interviews and selects a candidate.<br>Step 10: HR extends a job offer to the selected candidate.",
+        "outputs": "Approved Job Position<br>Job Posting<br>Shortlisted Candidates<br>Job Offer",
+        "whom": "Department Manager<br>HR Department<br>Finance Department<br>Hiring Manager<br>Applicants",
+        "what": "Job Description Template<br>Budget Approval Form<br>HR Software<br>Interview Questions<br>Job Offer Letter",
+        "how": "Follow the organization's job request and approval procedures.<br>Use HR software to manage job postings and applications.<br>Conduct interviews following the company's interview guidelines.",
+        "support": "HR Policies and Procedures Manual<br>Budget Approval Guidelines<br>Interview Training Materials<br>Job Description Templates",
+        "results": "Efficient Hiring Process<br>Qualified Candidate Hired<br>Departmental Needs Met<br>Compliance with Organizational Policies"
+    }
+}
