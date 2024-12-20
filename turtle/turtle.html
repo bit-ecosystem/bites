@@ -25,15 +25,15 @@
 
                 const container = document.getElementById('grid-container');
                 const boxes = [
-                    { "title": "Who?", "description": "With Whom? (Stakeholders in this Process)",content: data.turtle.whom },
-                    { "title": "What?", "description": "With What? (Materials & Equipment needed)",content: data.turtle.what },
-                    { "title": "Outputs", "description": "What is delivered after input/s goes thru the process",content: data.turtle.outputs },
-                    { "title": "How?", "description": "Uses what Procedures? (SOPs, Support material includes, procedures, instructions, specific methods, etc.)" ,content: data.turtle.how},
-                    { "title": "Process", "description": "Value adding step/s, and any sequence that fall within the scope of the process",content: data.turtle.process },
-                    { "title": "Results", "description": "Measure for this process (KPI)",content: data.turtle.results },
-                    { "title": "Inputs", "description": "What are the inputs?",content: data.turtle.inputs },
-                    { "title": "Process Brief", "description": "Brief explaination to this process",content: data.turtle.brief },
-                    { "title": "Support processes, Procedures & Methods", "description": "Support material includes, procedures, instructions, specific methods, etc.",content: data.turtle.support }
+                    { "title": "Who?", "description": "With Whom? (Stakeholders in this Process)", content: data.turtle.whom },
+                    { "title": "What?", "description": "With What? (Materials & Equipment needed)", content: data.turtle.what },
+                    { "title": "Outputs", "description": "What is delivered after input/s goes thru the process", content: data.turtle.outputs },
+                    { "title": "How?", "description": "Uses what Procedures? (SOPs, Support material includes, procedures, instructions, specific methods, etc.)", content: data.turtle.how },
+                    { "title": "Process", "description": "Value adding step/s, and any sequence that fall within the scope of the process", content: data.turtle.process },
+                    { "title": "Results", "description": "Measure for this process (KPI)", content: data.turtle.results },
+                    { "title": "Inputs", "description": "What are the inputs?", content: data.turtle.inputs },
+                    { "title": "Process Brief", "description": "Brief explaination to this process", content: data.turtle.brief },
+                    { "title": "Support processes, Procedures & Methods", "description": "Support material includes, procedures, instructions, specific methods, etc.", content: data.turtle.support }
 
                 ];
 
@@ -41,9 +41,9 @@
                     const item = document.createElement('div');
                     item.className = 'grid-item';
 
-                    if (box.title === "Process") {
+                    if (box.title === "Process" || box.title === "Inputs" || box.title === "Outputs") {
                         item.classList.add('primary');
-                    } else if (box.title === "Inputs" || box.title === "Outputs") {
+                    } else if (box.title === "Who?" || box.title === "What?" || box.title === "How?") {
                         item.classList.add('secondary');
                     } else {
                         item.classList.add('grey');
