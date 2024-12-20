@@ -43,7 +43,7 @@
     padding: 10px;
     text-align: center;
     width: 25vw; /* 25% of viewport width */
-    height: 25vh; /* 25% of viewport height */
+    height: 50vh; /* 25% of viewport height */
     display: flex;
     flex-direction: column;
     border-radius: 10px; /* Rounded corners */
@@ -72,7 +72,7 @@
     display: flex;
     align-items: center;
     overflow-y: hidden; /* Hide overflow initially */
-    max-height: 30vh; /* Set to 25% of viewport height */
+    max-height: 50vh; /* Set to 25% of viewport height */
     transition: max-height 0.3s ease; /* Smooth transition */
     justify-content: center;
 }
