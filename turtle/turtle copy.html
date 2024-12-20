@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9 Box Grid</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <div class="grid-container" id="grid-container">
+        <!-- Grid items will be inserted here by JavaScript -->
+    </div>
+
+    <script>
+        const data = {
+            "boxes": [
+                { "title": "Inputs", "description": "Description", "content": "Content 1" },
+                { "title": "What?", "description": "With What? (Materials & Equipment needed)", "content": "Content 2" },
+                { "title": "Process Brief", "description":"Brief explaination to this process", "content": "Brief explaination to this process" },
+                { "title": "How?", "description": "Uses what Procedures? (SOPs, Support material includes, procedures, instructions, specific methods, etc.)", "content": "Content 4" },
+                { "title": "Process", "description": "Value adding step/s, and any sequence that fall within the scope of the process", "content": "Content 5" },
+                { "title": "Who?", "description": "With Whom? (Stakeholders in this Process)", "content": "Content 6" },
+                { "title": "Support processes, Procedures & Methods", "description": "Support material includes, procedures, instructions, specific methods, etc.", "content": "Content 7" },
+                { "title": "Results", "description": "Measure for this process (KPI)", "content": "Content 8" },
+                { "title": "Outputs", "description": "What is delivered after input/s goes thru the process", "content": "Content 9" }
+            ]
+        };
+
+        const container = document.getElementById('grid-container');
+
+        data.boxes.forEach(box => {
+            const item = document.createElement('div');
+            item.className = 'grid-item';
+
+            if (box.title === "Process"||box.title === "Inputs" || box.title === "Outputs") {
+                item.classList.add('primary');
+            } else if (box.title === "Who?" || box.title === "What?"|| box.title === "How?") {
+                item.classList.add('secondary');
+            } else {
+                item.classList.add('grey');
+            }
+
+            const titleDescription = document.createElement('div');
+            titleDescription.className = 'title-description';
+            titleDescription.innerHTML = `<span class="title">${box.title}</span> ..... <span class="description">${box.description}</span>`;
+
+            const content = document.createElement('div');
+            content.className = 'content';
+            content.textContent = box.content;
+
+            item.appendChild(titleDescription);
+            item.appendChild(content);
+
+            container.appendChild(item);
+        });
+    </script>
+</body>
+
+</html>

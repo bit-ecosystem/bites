@@ -1,89 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Turtle Diagram</title>
-    <style>
-        .turtle-diagram {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 50px;
-        }
-
-        .turtle-diagram .box {
-            border: 1px solid #000;
-            padding: 20px;
-            margin: 10px;
-            width: 400px;
-            text-align: center;
-        }
-        .turtle-diagram .box2 {
-            border: 1px solid #000;
-            padding: 20px;
-            margin: 10px;
-            width: 200px;
-            text-align: center;
-        }
-
-        .turtle-diagram .row {
-            display: flex;
-            justify-content: center;
-        }
-
-        .turtle-diagram .row .box {
-            flex: 1;
-        }
-    </style>
+    <title>9 Box Grid</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
-
 <body>
-
-    <div class="turtle-diagram">
-        <div class="row">
-            <div class="box" id="what">What</div>
-            <div class="box" id="whom">Whom</div>
-        </div>
-        <div class="row">
-            <div class="box2" id="inputs">Inputs</div>
-            <div class="box" id="process">Process</div>
-            <div class="box2" id="outputs">Outputs</div>
-        </div>
-        <div class="row">
-            <div class="box" id="how">How</div>
-            <div class="box" id="results">Results: Performance indicators</div>
-        </div>
+    <div class="grid-container" id="grid-container">
+        <!-- Grid items will be inserted here by JavaScript -->
     </div>
+
     <script>
-        // Function to fetch JSON data and populate the Turtle Diagram
         async function populateTurtleDiagram() {
             try {
                 const urlParams = new URLSearchParams(window.location.search);
-                const file1 = urlParams.get('on') || 'test'; // Default to 'medicalclaim.json'
-
+                const file1 = urlParams.get('on') || 'test'; // Default to 'test.json'
                 const fileName = file1 + '.json';
 
                 const response = await fetch(fileName);
                 const data = await response.json();
 
-                document.getElementById('inputs').innerHTML = data.inputs;
-                document.getElementById('whom').innerHTML = data.whom;
-                document.getElementById('process').innerHTML = data.process;
-                document.getElementById('what').innerHTML = data.what;
-                document.getElementById('how').innerHTML = data.how;
-                document.getElementById('outputs').innerHTML = data.outputs;
-                document.getElementById('support').innerHTML = data.support;
-                document.getElementById('results').innerHTML = data.results;
+                const container = document.getElementById('grid-container');
+                const boxes = [
+                    { title: "Inputs", content: data.inputs },
+                    { title: "Whom", content: data.whom },
+                    { title: "Process", content: data.process },
+                    { title: "What", content: data.what },
+                    { title: "How", content: data.how },
+                    { title: "Outputs", content: data.outputs },
+                    { title: "Support", content: data.support },
+                    { title: "Results", content: data.results },
+                    { title: "Other", content: "Additional content" } // Example additional content
+                ];
+
+                boxes.forEach(box => {
+                    const item = document.createElement('div');
+                    item.className = 'grid-item';
+
+                    if (box.title === "Process") {
+                        item.classList.add('primary');
+                    } else if (box.title === "Inputs" || box.title === "Outputs") {
+                        item.classList.add('secondary');
+                    } else {
+                        item.classList.add('grey');
+                    }
+
+                    const titleDescription = document.createElement('div');
+                    titleDescription.className = 'title-description';
+                    titleDescription.innerHTML = `<span class="title">${box.title}</span> ..... <span class="description">${box.title} description</span>`;
+
+                    const content = document.createElement('div');
+                    content.className = 'content';
+                    content.textContent = box.content;
+
+                    item.appendChild(titleDescription);
+                    item.appendChild(content);
+
+                    container.appendChild(item);
+                });
             } catch (error) {
                 console.error('Error fetching or parsing JSON data:', error);
             }
         }
 
-        // Call the function to populate the diagram on page load
-        window.onload = populateTurtleDiagram;
+        // Call the function to populate the diagram
+        populateTurtleDiagram();
     </script>
 </body>
-
 </html>

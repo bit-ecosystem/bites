@@ -1,10 +1,10 @@
 {
 "inputs":	"Medical Receipts<br>Doctor's Notes<br>Employee ID<br>Claim Form",
-"whom":	"Employee<br>HR Department<br>Finance Department<br>Healthcare Provider",
 "process":	"Step 1: Employee submits a medical claim form along with receipts and doctor's notes.<br>Step 2: HR Department reviews the submitted documents for completeness and accuracy.<br>Step 3: HR Department approves or rejects the claim based on company policy.<br>Step 4: Approved claims are forwarded to the Finance Department for processing.<br>Step 5: Finance Department processes the claim and schedules reimbursement.<br>Step 6: Employee receives reimbursement.",
+"outputs":	"Approved Claims<br>Rejected Claims<br>Reimbursement Payments",
+"whom":	"Employee<br>HR Department<br>Finance Department<br>Healthcare Provider",
 "what":	"Submission of Claim Form<br>Verification of Documents<br>Approval/Rejection of Claim<br>Processing of Approved Claims<br>Reimbursement to Employee",
 "how":	"Online HR Portal<br>Email Submission<br>Manual Review<br>Financial Software for Processing Payments<br>Direct Deposit or Check Issuance",
-"outputs":	"Approved Claims<br>Rejected Claims<br>Reimbursement Payments",
 "support":	"Company Medical Claim Policy<br>HR Guidelines for Claim Review<br>Finance Procedures for Reimbursement<br>IT Support for HR Portal",
 "results":	"Timely Reimbursement to Employees<br>Accurate Record Keeping<br>Employee Satisfaction<br>Compliance with Company Policies"
 
