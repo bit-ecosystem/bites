@@ -1,5 +1,5 @@
 {
-    "payroll_claims_deductions": {
+    "turtle": {
         "brief": "Employee Entitlement - Payroll Deductions",
         "inputs": "System Claims exception report<br>Undeducted Remaining Amount<br>Payroll Cycle",
         "process": "Step 1: HR identifies over claims.<br>Step 2: Line Manager/Supervisor reviews and approves the claim.<br>Step 3: Approved claims are forwarded to the HR Department for verification.<br>Step 4: HR Department verifies the claim and forwards it to the Finance Department.<br>Step 5: Finance Department calculates the deductible amount.<br>Step 6: Deduct the approved amount from the employee's taxable income.<br>Step 7: Generate payroll report including deduction details.<br>Step 8: Process payroll with the adjusted taxable income.",
