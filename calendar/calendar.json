@@ -1,0 +1,23 @@
+{
+    "id": " A unique identifier for the event.",
+    "groupId": " Groups events together for dragging and resizing.",
+    "allDay": " A boolean indicating if the event is an all-day event.",
+    "start": " The start date and time of the event.",
+    "end": " The end date and time of the event.",
+    "startStr": " An ISO8601 string representation of the start date.",
+    "endStr": " An ISO8601 string representation of the end date.",
+    "title": " The text that will appear on the event.",
+    "url": " A URL that will be visited when the event is clicked.",
+    "classNames": " An array of strings representing CSS class names to be applied to the event.",
+    "editable": " A boolean indicating if the event can be edited.",
+    "startEditable": " A boolean indicating if the start time of the event can be edited.",
+    "durationEditable": " A boolean indicating if the duration of the event can be edited.",
+    "resourceEditable": " A boolean indicating if the event's resources can be edited.",
+    "display": " Defines how the event is rendered (e.g., 'auto', 'block', 'list-item', 'background', 'inverse-background', 'none').",
+    "overlap": " A boolean indicating if the event can overlap with other events.",
+    "constraint": " Defines constraints for the event, such as limiting it to certain time ranges or resources.",
+    "color": " Sets the background color of the event.",
+    "textColor": " Sets the text color of the event.",
+    "borderColor": " Sets the border color of the event.",
+    "backgroundColor": " Sets the background color of the event."
+}

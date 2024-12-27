@@ -1,0 +1,13 @@
+{
+    "turtle": {
+        "brief": "This process describes the steps involved in registering visitors to the organization.",
+        "inputs": "Visitor Information Form<br>Visitor ID<br>Appointment Confirmation<br>Visitor Badge",
+        "process": "Step 1: Visitor arrives at the reception.<br>Step 2: Receptionist greets the visitor and requests identification.<br>Step 3: Visitor fills out the Visitor Information Form.<br>Step 4: Receptionist verifies the visitor's appointment and ID.<br>Step 5: Receptionist issues a visitor badge.<br>Step 6: Visitor is escorted to the meeting area.<br>Step 7: Visitor returns the badge and signs out at the reception before leaving.",
+        "outputs": "Completed Visitor Information Form<br>Issued Visitor Badge<br>Visitor Log Entry",
+        "whom": "Visitor<br>Receptionist<br>Host Employee",
+        "what": "Visitor Information Form<br>Visitor Badge<br>Visitor Log Book<br>Reception Desk",
+        "how": "Follow the organization's visitor registration procedures.<br>Verify visitor's ID and appointment.<br>Ensure visitor signs in and out.<br>Issue and collect visitor badges.",
+        "support": "Visitor Registration Policy<br>Receptionist Training Materials<br>Security Guidelines<br>Visitor Management System",
+        "results": "Secure and Organized Visitor Management<br>Accurate Visitor Records<br>Positive Visitor Experience"
+    }
+}

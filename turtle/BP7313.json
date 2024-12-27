@@ -1,0 +1,13 @@
+{
+    "turtle": {
+        "brief": "This process describes the steps involved in onboarding new staff members to the organization.",
+        "inputs": "Offer Letter<br>Employee Information Form<br>Employment Contract<br>Company Policies and Procedures Manual",
+        "process": "Step 1: Send the offer letter and employment contract to the new hire.<br>Step 2: Receive signed documents from the new hire.<br>Step 3: Schedule the onboarding session.<br>Step 4: Conduct the onboarding session, including introductions to team members and a tour of the facility.<br>Step 5: Provide the new hire with necessary equipment and access credentials.<br>Step 6: Review company policies, procedures, and job responsibilities.<br>Step 7: Complete mandatory training sessions.<br>Step 8: Set up the new hire's workspace.<br>Step 9: Conduct follow-up meetings to ensure the new hire's integration into the team.",
+        "outputs": "Signed Employment Contract<br>Completed Employee Information Form<br>Access Credentials Issued<br>Training Completed<br>New Hire Integrated into Team",
+        "whom": "HR Department<br>Hiring Manager<br>IT Department<br>New Hire<br>Team Members",
+        "what": "Onboarding Checklist<br>Training Materials<br>Company Policies and Procedures Manual<br>Access Credentials<br>Office Supplies",
+        "how": "Follow the organization's onboarding procedures.<br>Ensure all necessary documents are signed and submitted.<br>Provide comprehensive training and support.<br>Facilitate smooth integration into the team.",
+        "support": "Onboarding Policies and Procedures Manual<br>HR Support<br>IT Support<br>Training Programs<br>Mentorship Program",
+        "results": "Well-Integrated New Hire<br>Compliance with Organizational Policies<br>Increased Employee Engagement and Retention<br>Positive Onboarding Experience"
+    }
+}

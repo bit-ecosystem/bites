@@ -1,0 +1,14 @@
+{
+    "payroll_claims_reimbursement": {
+        "brief": "Employee Entitlement - Payroll Reimbursement",
+        "inputs": "Approved Claims<br>Payroll Cycle",
+        "process": "",
+        "outputs": "Reimbursement Payments<br>Payroll Reports",
+        "whom": "Employee<br>Line Manager/Supervisor<br>HR Department<br>Finance Department<br>Payroll Administrator",
+        "what": "Submission of Claim Form<br>Verification of Documents<br>Approval/Rejection of Claim<br>Calculation of Reimbursement<br>Processing of Approved Claims<br>Inclusion in Payroll<br>Disbursement of Reimbursement",
+        "how": "Online HR Portal<br>Email Submission<br>Manual Review<br>Payroll Software<br>Financial Software for Processing Payments<br>Direct Deposit or Check Issuance",
+        "support": "Company Travel Policy<br>HR Guidelines for Claim Review<br>Finance Procedures for Reimbursement<br>IT Support for HR and Payroll Software",
+        "results": "Timely and Accurate Reimbursement<br>Employee Satisfaction<br>Compliance with Company Policies<br>Accurate Record Keeping"
+    }
+    
+}

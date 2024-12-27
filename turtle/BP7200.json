@@ -1,0 +1,13 @@
+{
+    "turtle": {
+        "brief": "This process describes the steps involved in recruiting new employees within the organization.",
+        "inputs": "Job Requisition Form<br>Job Description<br>Budget Approval<br>Recruitment Plan",
+        "process": "Step 1: Receive job requisition form from the hiring department.<br>Step 2: Review and finalize the job description.<br>Step 3: Obtain budget approval for the new position.<br>Step 4: Develop a recruitment plan and timeline.<br>Step 5: Post the job opening on internal and external job boards.<br>Step 6: Screen applications and shortlist candidates.<br>Step 7: Conduct initial interviews and assessments.<br>Step 8: Forward shortlisted candidates to the hiring manager.<br>Step 9: Hiring manager conducts final interviews.<br>Step 10: Select the best candidate and extend a job offer.<br>Step 11: Conduct background checks and reference checks.<br>Step 12: Onboard the new employee.",
+        "outputs": "Job Posting<br>Shortlisted Candidates<br>Interview Feedback<br>Job Offer<br>New Employee Onboarded",
+        "whom": "HR Department<br>Hiring Manager<br>Applicants<br>Background Check Agency",
+        "what": "Job Boards<br>Applicant Tracking System (ATS)<br>Interview Questions<br>Assessment Tools<br>Job Offer Letter<br>Onboarding Materials",
+        "how": "Follow the organization's recruitment and selection procedures.<br>Use ATS to manage applications and track candidates.<br>Conduct structured interviews and assessments.<br>Ensure compliance with employment laws and regulations.",
+        "support": "Recruitment Policies and Procedures Manual<br>Interview Training Materials<br>Budget Approval Guidelines<br>Onboarding Checklist",
+        "results": "Qualified Candidate Hired<br>Efficient Recruitment Process<br>Compliance with Organizational Policies<br>Positive Candidate Experience"
+    }
+}

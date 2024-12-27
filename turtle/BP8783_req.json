@@ -1,0 +1,13 @@
+{
+    "turtle": {
+        "brief": "This process describes the steps involved in handling new IT requests from the IT service catalog within the organization.",
+        "inputs": "IT Service Catalog<br>New IT Request Form<br>Employee Details<br>Request Description<br>Priority Level",
+        "process": "Step 1: Employee accesses the IT service catalog and selects the required service.<br>Step 2: Employee submits a new IT request form detailing the requirement.<br>Step 3: IT support team reviews and prioritizes the request.<br>Step 4: Assign the request to an appropriate IT technician or team.<br>Step 5: IT technician or team assesses the request and determines the necessary resources.<br>Step 6: Develop a plan to fulfill the request.<br>Step 7: Implement the plan and provide the requested IT service or equipment.<br>Step 8: Test and verify that the request has been fulfilled satisfactorily.<br>Step 9: Update the IT request system with the completion details.<br>Step 10: Notify the employee that the request has been fulfilled.<br>Step 11: Close the IT request.",
+        "outputs": "Fulfilled IT Request<br>Updated IT Request System<br>Employee Notification",
+        "whom": "Employee<br>IT Support Team<br>IT Technician or Team<br>IT Manager",
+        "what": "IT Service Catalog<br>IT Request System<br>Project Management Tools<br>IT Support Software<br>Communication Tools",
+        "how": "Follow the organization's IT request handling procedures.<br>Use IT support software to track and manage requests.<br>Ensure timely and effective fulfillment of IT requests.<br>Communicate clearly with employees regarding the status of their requests.",
+        "support": "IT Policies and Procedures Manual<br>IT Support Training Materials<br>Knowledge Base<br>Technical Documentation",
+        "results": "Efficient IT Support<br>Fulfilled IT Requests<br>Employee Satisfaction<br>Accurate IT Request Records"
+    }
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "id": "1",
+        "title": "New Year's Day",
+        "start": "2024-01-01",
+        "allDay": true,
+        "color": "#ff0000",
+        "description": "Celebration of the New Year"
+    },
+    {
+        "id": "2",
+        "title": "Christmas Day",
+        "start": "2024-12-25",
+        "allDay": true,
+        "color": "#00ff00",
+        "description": "Celebration of Christmas"
+    }
+]

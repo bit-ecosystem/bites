@@ -1,0 +1,13 @@
+{
+    "turtle": {
+        "brief": "This process describes the steps involved in handling IT requests within the organization.",
+        "inputs": "IT Request Form<br>Employee Details<br>Issue Description<br>Priority Level",
+        "process": "Step 1: Employee submits an IT request form detailing the issue.<br>Step 2: IT support team reviews and prioritizes the request.<br>Step 3: Assign the request to an appropriate IT technician.<br>Step 4: IT technician diagnoses the issue and determines the solution.<br>Step 5: Implement the solution and resolve the issue.<br>Step 6: Test to ensure the issue is resolved.<br>Step 7: Update the IT request system with the resolution details.<br>Step 8: Notify the employee that the issue has been resolved.<br>Step 9: Close the IT request.",
+        "outputs": "Resolved IT Issue<br>Updated IT Request System<br>Employee Notification",
+        "whom": "Employee<br>IT Support Team<br>IT Technician<br>IT Manager",
+        "what": "IT Request System<br>Diagnostic Tools<br>IT Support Software<br>Communication Tools",
+        "how": "Follow the organization's IT request handling procedures.<br>Use IT support software to track and manage requests.<br>Ensure timely and effective resolution of IT issues.<br>Communicate clearly with employees regarding the status of their requests.",
+        "support": "IT Policies and Procedures Manual<br>IT Support Training Materials<br>Knowledge Base<br>Technical Documentation",
+        "results": "Efficient IT Support<br>Resolved IT Issues<br>Employee Satisfaction<br>Accurate IT Request Records"
+    }
+}

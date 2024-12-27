@@ -1,0 +1,13 @@
+{
+    "payroll_claims_deductions": {
+        "brief": "Employee Entitlement - Payroll Deductions",
+        "inputs": "System Claims exception report<br>Undeducted Remaining Amount<br>Payroll Cycle",
+        "process": "Step 1: HR identifies over claims.<br>Step 2: Line Manager/Supervisor reviews and approves the claim.<br>Step 3: Approved claims are forwarded to the HR Department for verification.<br>Step 4: HR Department verifies the claim and forwards it to the Finance Department.<br>Step 5: Finance Department calculates the deductible amount.<br>Step 6: Deduct the approved amount from the employee's taxable income.<br>Step 7: Generate payroll report including deduction details.<br>Step 8: Process payroll with the adjusted taxable income.",
+        "outputs": "Approved Claims<br>Rejected Claims<br>Payroll Reports<br>Adjusted Taxable Income",
+        "whom": "Employee<br>Line Manager/Supervisor<br>HR Department<br>Finance Department<br>Payroll Administrator",
+        "what": "Submission of Claim Form<br>Verification of Documents<br>Approval/Rejection of Claim<br>Calculation of Deductible Amount<br>Adjustment of Taxable Income<br>Generation of Reports<br>Processing of Payroll",
+        "how": "Online HR Portal<br>Email Submission<br>Manual Review<br>Payroll Software<br>Financial Software for Processing Payments<br>Direct Deposit or Check Issuance",
+        "support": "Company Expense Policy<br>HR Guidelines for Claim Review<br>Finance Procedures for Deduction Calculation<br>IT Support for HR and Payroll Software",
+        "results": "Accurate and Timely Payroll Processing<br>Reduced Taxable Income<br>Employee Satisfaction<br>Compliance with Company Policies and Tax Regulations"
+    }
+}

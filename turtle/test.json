@@ -9,5 +9,43 @@
         "outputs": "Baked Cake Layers<br>Clean Kitchen",
         "support": "Recipe Book<br>Online Baking Tutorials<br>Kitchen Timer<br>Oven Thermometer",
         "results": "Delicious Cake<br>Happy Baker<br>Satisfied Guests"
-    }
+    },
+    "job_roles": [
+        {
+            "Role Name": "Process Improvement",
+            "Description": "Analyze and improve manufacturing processes.",
+            "Tags": [
+                "Engineer",
+                "IE",
+                "Analyst"
+            ]
+        },
+        {
+            "Role Name": "IT Management",
+            "Description": "Oversee the IT department and manage IT projects.",
+            "Tags": [
+                "IT",
+                "Manager",
+                "PM"
+            ]
+        },
+        {
+            "Role Name": "Operations Oversight",
+            "Description": "Oversee daily operations and manage staff.",
+            "Tags": [
+                "Operations",
+                "Manager",
+                "Approver"
+            ]
+        },
+        {
+            "Role Name": "Marketing Campaigns",
+            "Description": "Plan and execute marketing campaigns.",
+            "Tags": [
+                "Marketing",
+                "Manager",
+                "Strategist"
+            ]
+        }
+    ]
 }
