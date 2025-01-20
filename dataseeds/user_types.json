@@ -1,0 +1,62 @@
+[
+    {
+        "type_name": "Guest",
+        "description": "Any registered user is by default a guest",
+        "tag": ""
+    },
+    {
+        "type_name": "Customer",
+        "description": "A guest that is from companies, our business sells and do transact with",
+        "tag": ""
+    },
+    {
+        "type_name": "Supplier",
+        "description": "A guest that is from companies, our business buys and do transact with",
+        "tag": ""
+    },
+    {
+        "type_name": "Vendor Contractor",
+        "description": "A guest that is from companies, our organization contract service from, and will be part of and perform jobs in the company",
+        "tag": ""
+    },
+    {
+        "type_name": "Employee",
+        "description": "A guest[new joiner] that is converted to an employee",
+        "tag": ""
+    },
+    {
+        "type_name": "Customer",
+        "description": "A temporary label placed on Guest/Customer/Supplier/Candidate visiting our premises",
+        "tag": "Visitor"
+    },
+    {
+        "type_name": "Supplier",
+        "description": "A temporary label placed on Guest/Customer/Supplier/Candidate visiting our premises",
+        "tag": "Visitor"
+    },
+    {
+        "type_name": "Candidate",
+        "description": "A temporary label placed on Guest/Customer/Supplier/Candidate visiting our premises",
+        "tag": "Visitor"
+    },
+    {
+        "type_name": "Guest",
+        "description": "A temporary label placed on Guest/Customer/Supplier/Candidate visiting our premises",
+        "tag": "Candidate"
+    },
+    {
+        "type_name": "Guest",
+        "description": "A temporary label placed on Guest converting to be Employee/Vendor Contractor visiting our premises",
+        "tag": "New Joiner"
+    },
+    {
+        "type_name": "Employee",
+        "description": "A temporary label placed on Employee/Vendor Contractor frequenting our premises till receiving the proper tags/cards/pass",
+        "tag": "New Joiner"
+    },
+    {
+        "type_name": "Vendor Contractor",
+        "description": "A temporary label placed on Employee/Vendor Contractor frequenting our premises till receiving the proper tags/cards/pass",
+        "tag": "New Joiner"
+    }
+]

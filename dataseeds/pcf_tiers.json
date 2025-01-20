@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "level": "Category",
+        "description": "1st Tier of Process Clasification Frameworks"
+    },
+    {
+        "id": 2,
+        "level": "Function",
+        "description": "2nd Tier of Process Clasification Frameworks called Process Group"
+    },
+    {
+        "id": 3,
+        "level": "Segment",
+        "description": "3rd Tier of Process Clasification Frameworks called Process"
+    },
+    {
+        "id": 4,
+        "level": "Activity",
+        "description": "4th Tier of Process Clasification Frameworks called Activity"
+    },
+    {
+        "id": 5,
+        "level": "Process",
+        "description": "5th Tier of Process Clasification Frameworks called Task, this is the start for each process workflow. Consist of an arrangement of workpackages to produce an outcome"
+    },
+    {
+        "id": 6,
+        "level": "Workpackage",
+        "description": "Part of process workflow. Consist of an arrangement of 1 or more tasks and if any, asset item, to to be completed by a single defined job role"
+    },
+    {
+        "id": 7,
+        "level": "Task",
+        "description": "Part of process workflow. A usually assigned piece of work often to be finished within a certain time"
+    }
+]

@@ -1,0 +1,322 @@
+[
+    {
+        "category": "Staff Self Service",
+        "title": "Payroll and Compensation",
+        "description": "See Payroll and Compensation",
+        "domain_id": 2,
+        "path": "payroll",
+        "param": "#data",
+        "image": "cash-2.svg",
+        "parent_id": ""
+    },
+    {
+        "category": "Staff Self Service",
+        "title": "Leave and Attendance",
+        "description": "See Leave and Attendance",
+        "domain_id": 2,
+        "path": "leave",
+        "param": "#data",
+        "image": "scheduled.svg",
+        "parent_id": ""
+    },
+    {
+        "category": "Staff Self Service",
+        "title": "Benefits and Entitlements",
+        "description": "See Benefits and Entitlements",
+        "domain_id": 2,
+        "path": "benefit",
+        "param": "#data",
+        "image": "cash-distribution-networ.svg",
+        "parent_id": ""
+    },
+    {
+        "category": "Staff Self Service",
+        "title": "Performance Management",
+        "description": "See Performance Management",
+        "domain_id": 2,
+        "path": "performance",
+        "param": "#data",
+        "image": "on-target.svg",
+        "parent_id": ""
+    },
+    {
+        "category": "Staff Self Service",
+        "title": "Communication and Collaboration",
+        "description": "See Communication and Collaboration",
+        "domain_id": 4,
+        "path": "",
+        "param": "Communication%20and%20Collaboration",
+        "image": "communication.svg",
+        "parent_id": ""
+    },
+    {
+        "category": "Staff Self Service",
+        "title": "Expense Management",
+        "description": "See Expense Management",
+        "domain_id": 4,
+        "path": "",
+        "param": "Expense%20Management",
+        "image": "checklist-3.svg",
+        "parent_id": ""
+    },
+    {
+        "category": "Staff Self Service",
+        "title": "Onboarding and Offboarding",
+        "description": "See Onboarding and Offboarding",
+        "domain_id": 3,
+        "path": "onboard",
+        "param": "#data",
+        "image": "receive-package.svg",
+        "parent_id": ""
+    },
+    {
+        "category": "Staff Self Service",
+        "title": "Self-Service Analytics",
+        "description": "See Self-Service Analytics",
+        "domain_id": 1,
+        "path": "staff.departments",
+        "param": "",
+        "image": "graph.svg",
+        "parent_id": ""
+    },
+    {
+        "category": "Staff Self Service",
+        "title": "Support and Helpdesk",
+        "description": "See Support and Helpdesk",
+        "domain_id": 1,
+        "path": "staff.support-catalogs",
+        "param": "",
+        "image": "online-help.svg",
+        "parent_id": ""
+    },
+    {
+        "category": "Payroll and Compensation",
+        "title": "Pay slip",
+        "description": "Access and download monthly or bi-weekly pay slips.",
+        "domain_id": 2,
+        "path": "payroll",
+        "param": "#history",
+        "image": "money-in-wallet.svg",
+        "parent_id": 1
+    },
+    {
+        "category": "Payroll and Compensation",
+        "title": "Tax Information",
+        "description": "View and update tax-related information, including W-4 forms and other tax documents.",
+        "domain_id": 2,
+        "path": "payroll",
+        "param": "#history",
+        "image": "percentage-1",
+        "parent_id": 1
+    },
+    {
+        "category": "Payroll and Compensation",
+        "title": "Compensation Details",
+        "description": "Check salary structure, bonuses, and other compensation-related information.",
+        "domain_id": 2,
+        "path": "payroll",
+        "param": "#history",
+        "image": "transcation.svg",
+        "parent_id": 1
+    },
+    {
+        "category": "Leave and Attendance",
+        "title": "Leave Requests",
+        "description": "Apply for leave, check leave balances, and track the status of leave requests.",
+        "domain_id": 2,
+        "path": "leave",
+        "param": "#apply",
+        "image": "beach.svg",
+        "parent_id": 2
+    },
+    {
+        "category": "Leave and Attendance",
+        "title": "Attendance Records",
+        "description": "View attendance history, clock-in and clock-out times, and manage time-off requests.",
+        "domain_id": 2,
+        "path": "leave",
+        "param": "#history",
+        "image": "scheduled.svg",
+        "parent_id": 2
+    },
+    {
+        "category": "Benefits and Entitlements",
+        "title": "Benefits Enrollment",
+        "description": "Enroll in or update health insurance, retirement plans, and other employee benefits.",
+        "domain_id": 2,
+        "path": "benefit",
+        "param": "#apply",
+        "image": "membership-card.svg",
+        "parent_id": 2
+    },
+    {
+        "category": "Benefits and Entitlements",
+        "title": "Benefits Information",
+        "description": "Access information about various benefits offered by the company.",
+        "domain_id": 5,
+        "path": "employeehandbook.html",
+        "param": "#benefits",
+        "image": "information.svg",
+        "parent_id": 3
+    },
+    {
+        "category": "Benefits and Entitlements",
+        "title": "Company-issued Equipment",
+        "description": "View Equipiment assigned",
+        "domain_id": 2,
+        "path": "benefit",
+        "param": "#custody",
+        "image": "toolbox.svg",
+        "parent_id": 3
+    },
+    {
+        "category": "Performance Management",
+        "title": "Performance Reviews",
+        "description": "Participate in performance review processes, view feedback, and set goals.",
+        "domain_id": 2,
+        "path": "performance",
+        "param": "#review",
+        "image": "measurement.svg",
+        "parent_id": 4
+    },
+    {
+        "category": "Performance Management",
+        "title": "Training and Development",
+        "description": "Access training materials, enroll in courses, and track progress on development plans.",
+        "domain_id": 3,
+        "path": "development",
+        "param": "#menu",
+        "image": "tutorials.svg",
+        "parent_id": 4
+    },
+    {
+        "category": "Communication and Collaboration",
+        "title": "Company Announcements",
+        "description": "Stay updated with company news, announcements, and policy changes.",
+        "domain_id": 4,
+        "path": "",
+        "param": "Company%20Announcements",
+        "image": "questions-answers.svg",
+        "parent_id": 5
+    },
+    {
+        "category": "Communication and Collaboration",
+        "title": "Internal Messaging",
+        "description": "Communicate with colleagues and managers through internal messaging systems.",
+        "domain_id": 4,
+        "path": "",
+        "param": "Internal%20Messaging",
+        "image": "typing-message.svg",
+        "parent_id": 5
+    },
+    {
+        "category": "Expense Management",
+        "title": "Expense Claims",
+        "description": "Submit and track expense claims for reimbursement.",
+        "domain_id": 4,
+        "path": "",
+        "param": "Expense%20Claims",
+        "image": "receipt.svg",
+        "parent_id": 6
+    },
+    {
+        "category": "Expense Management",
+        "title": "Expense Policies",
+        "description": "Access company policies related to travel and other expenses.",
+        "domain_id": 5,
+        "path": "employeehandbook.html",
+        "param": "#expense",
+        "image": "spiral-notebook.svg",
+        "parent_id": 6
+    },
+    {
+        "category": "Onboarding and Offboarding",
+        "title": "Onboarding Checklists",
+        "description": "Complete onboarding tasks and access necessary resources for new hires.",
+        "domain_id": 3,
+        "path": "onboard",
+        "param": "#checklist",
+        "image": "checklist-2.svg",
+        "parent_id": 7
+    },
+    {
+        "category": "Onboarding and Offboarding",
+        "title": "Exit Procedures",
+        "description": "Manage offboarding processes, including exit interviews and return of company property.",
+        "domain_id": 3,
+        "path": "offboard",
+        "param": "#checklist",
+        "image": "shoe-mat.svg",
+        "parent_id": 7
+    },
+    {
+        "category": "Self-Service Analytics",
+        "title": "Reports and Analytics",
+        "description": "Generate, and view reports related to attendance, performance, and other HR metrics.",
+        "domain_id": 1,
+        "path": "staff",
+        "param": "",
+        "image": "rise.svg",
+        "parent_id": 8
+    },
+    {
+        "category": "Support and Helpdesk",
+        "title": "Helpdesk Tickets",
+        "description": "Submit and track support tickets for",
+        "domain_id": 1,
+        "path": "staff.helpdesks",
+        "param": "",
+        "image": "call-for-help.svg",
+        "parent_id": 9
+    },
+    {
+        "category": "Support and Helpdesk",
+        "title": "Knowledge Base",
+        "description": "Access FAQs, guides, and other support resources.",
+        "domain_id": 1,
+        "path": "staff.knowledge-catalogs",
+        "param": "",
+        "image": "open-book.svg",
+        "parent_id": 9
+    },
+    {
+        "category": "Operations",
+        "title": "Operations Area",
+        "description": "View Operations Dashboard",
+        "domain_id": 4,
+        "path": "staff.operations-catalogs",
+        "param": "Operations%20Area",
+        "image": "rise.svg",
+        "parent_id": ""
+    },
+    {
+        "category": "Support",
+        "title": "Support",
+        "description": "View Support Menu",
+        "domain_id": 1,
+        "path": "staff.support-catalogs",
+        "param": "",
+        "image": "",
+        "parent_id": ""
+    },
+    {
+        "category": "Learning",
+        "title": "Learning",
+        "description": "Go to LMS",
+        "domain_id": 3,
+        "path": "development",
+        "param": "#menu",
+        "image": "tutorials.svg",
+        "parent_id": ""
+    },
+    {
+        "category": "Knowledge Base",
+        "title": "Knowledge Base",
+        "description": "View Knowledge Base site",
+        "domain_id": 1,
+        "path": "staff.knowledge-catalogs",
+        "param": "",
+        "image": "",
+        "parent_id": ""
+    }
+]

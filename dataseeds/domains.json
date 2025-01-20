@@ -1,0 +1,22 @@
+[
+    {
+        "system": "This App",
+        "domain": ""
+    },
+    {
+        "system": "HRMS",
+        "domain": "https://bit-ecosystem.github.io/bites/sample/hrms"
+    },
+    {
+        "system": "LMS",
+        "domain": "https://bit-ecosystem.github.io/bites/sample/lms"
+    },
+    {
+        "system": "Google",
+        "domain": "https://www.google.com/search?q="
+    },
+    {
+        "system": "GitHub Sample",
+        "domain": "https://bit-ecosystem.github.io/bites/sample"
+    }
+]

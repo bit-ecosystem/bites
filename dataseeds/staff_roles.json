@@ -1,0 +1,92 @@
+[
+    {
+        "role_name": "Paygrade",
+        "description": "Salary band",
+        "value": "A1N"
+    },
+    {
+        "role_name": "Paygrade",
+        "description": "Salary band",
+        "value": "B1N"
+    },
+    {
+        "role_name": "Category",
+        "description": "Entitlement Group",
+        "value": "X"
+    },
+    {
+        "role_name": "Category",
+        "description": "Entitlement Group",
+        "value": "A"
+    },
+    {
+        "role_name": "Category",
+        "description": "Entitlement Group",
+        "value": "B"
+    },
+    {
+        "role_name": "Category",
+        "description": "Entitlement Group",
+        "value": "C"
+    },
+    {
+        "role_name": "Category",
+        "description": "Entitlement Group",
+        "value": "T"
+    },
+    {
+        "role_name": "Category",
+        "description": "Entitlement Group",
+        "value": "D"
+    },
+    {
+        "role_name": "Category",
+        "description": "Entitlement Group",
+        "value": "E"
+    },
+    {
+        "role_name": "Category",
+        "description": "Entitlement Group",
+        "value": "F"
+    },
+    {
+        "role_name": "Group",
+        "description": "Staff Group",
+        "value": "Manager"
+    },
+    {
+        "role_name": "Group",
+        "description": "Staff Group",
+        "value": "Director"
+    },
+    {
+        "role_name": "Group",
+        "description": "Staff Group",
+        "value": "Engineer"
+    },
+    {
+        "role_name": "Group",
+        "description": "Staff Group",
+        "value": "Clerk"
+    },
+    {
+        "role_name": "Group",
+        "description": "Staff Group",
+        "value": "Operator"
+    },
+    {
+        "role_name": "Group",
+        "description": "Staff Group",
+        "value": "Technician"
+    },
+    {
+        "role_name": "Shift",
+        "description": "Working Pattern",
+        "value": "Normal"
+    },
+    {
+        "role_name": "Shift",
+        "description": "Working Pattern",
+        "value": "3G3S"
+    }
+]
