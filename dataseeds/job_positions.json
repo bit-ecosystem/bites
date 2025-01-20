@@ -1,0 +1,436 @@
+[
+    {
+        "Job Level": "Exec",
+        "title": "Chief Executive Officer (CEO)",
+        "reports_to": "",
+        "description": "The highest-ranking executive, responsible for overall company strategy and decision-making",
+        "emasco_id": "1121-01"
+    },
+    {
+        "Job Level": "Exec",
+        "title": "Chief Financial Officer (CFO)",
+        "reports_to": "Chief Executive Officer (CEO)",
+        "description": "Provides overall financial strategy, oversees financial operations, manages investment decisions, and ensures financial integrity.",
+        "emasco_id": "1211-09"
+    },
+    {
+        "Job Level": "Exec",
+        "title": "Chief Operating Officer (COO)",
+        "reports_to": "Chief Executive Officer (CEO)",
+        "description": "Oversees the company's day-to-day operations and ensures operational efficiency",
+        "emasco_id": "1121-02"
+    },
+    {
+        "Job Level": "Exec",
+        "title": "Chief Marketing Officer (CMO)",
+        "reports_to": "Chief Executive Officer (CEO)",
+        "description": "Leads the marketing department, developing strategies to promote the company's products or services",
+        "emasco_id": "1221-01"
+    },
+    {
+        "Job Level": "Exec",
+        "title": "Chief Information Officer (CIO)",
+        "reports_to": "Chief Executive Officer (CEO)",
+        "description": "Manages the company's IT strategy and infrastructure",
+        "emasco_id": "1511-01"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Financial Officer",
+        "reports_to": "Chief Financial Officer (CFO)",
+        "description": "Develops financial plans and forecasts, analyzes market trends, oversees budgeting, and manages financial risks.",
+        "emasco_id": "2412-15"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Financial Controller",
+        "reports_to": "Chief Financial Officer (CFO)",
+        "description": "Supervises the accounting team, manages company ledgers, ensures compliance with financial regulations, and maintains financial reporting integrity.",
+        "emasco_id": "2411-20"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Accountant",
+        "reports_to": "Chief Financial Officer (CFO)",
+        "description": "Manages financial records, prepares financial statements, handles accounts payable and receivable, and ensures compliance with accounting standards.",
+        "emasco_id": "2411-06"
+    },
+    {
+        "Job Level": "Support",
+        "title": "Audit Clerk",
+        "reports_to": "Chief Financial Officer (CFO)",
+        "description": "Records day-to-day financial transactions, maintains accurate financial records, and assists in preparing financial reports.",
+        "emasco_id": "4311-14"
+    },
+    {
+        "Job Level": "Ops",
+        "title": "Treasury Manager",
+        "reports_to": "Chief Financial Officer (CFO)",
+        "description": "Manages the company's liquidity, investments, and financial assets, oversees cash flow, and develops strategies to optimize financial resources.",
+        "emasco_id": "1211-10"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Financial Analyst",
+        "reports_to": "Chief Financial Officer (CFO)",
+        "description": "Analyzes financial data, identifies trends, prepares reports, and provides recommendations to improve financial performance.",
+        "emasco_id": "2413-01"
+    },
+    {
+        "Job Level": "Mgr",
+        "title": "Risk Manager",
+        "reports_to": "Chief Financial Officer (CFO)",
+        "description": "Identifies and assesses financial risks, develops risk management strategies and policies, and works to mitigate potential financial losses.",
+        "emasco_id": "1211-19"
+    },
+    {
+        "Job Level": "Mgr",
+        "title": "Supply Chain Manager",
+        "reports_to": "Chief Financial Officer (CFO)",
+        "description": "Oversees purchasing and supply chain finance, negotiates with suppliers, manages contracts, and works towards reducing costs without compromising on quality.",
+        "emasco_id": "1214-11"
+    },
+    {
+        "Job Level": "Exec",
+        "title": "Chief Human Resources Officer (CHRO)",
+        "reports_to": "Chief Executive Officer (CEO)",
+        "description": "Plan, organise, direct, control and coordinate policies concerning the personnel, industrial relations and occupational safety and health of an enterprise or organisation, or of enterprises that provide human resource services to other enterprises and organisations.",
+        "emasco_id": "1212-01"
+    },
+    {
+        "Job Level": "Mgr",
+        "title": "HR Manager",
+        "reports_to": "Chief Human Resources Officer (CHRO)",
+        "description": "Oversees the HR department, develops HR strategies, manages recruitment and selection processes, ensures compliance with labor laws, and handles employee relations and performance management.",
+        "emasco_id": "1212-02"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Recruitment Specialist",
+        "reports_to": "HR Manager",
+        "description": "Manages the hiring process, including job postings, screening resumes, conducting interviews, and onboarding new employees. Works closely with department managers to understand staffing needs.",
+        "emasco_id": "2423-12"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Training and Development Manager",
+        "reports_to": "HR Manager",
+        "description": "Identifies training needs, develops training programs, and conducts training sessions. Ensures employees have the necessary skills and knowledge to perform their jobs effectively.",
+        "emasco_id": "2424-04"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Compensation and Benefits Specialist",
+        "reports_to": "HR Manager",
+        "description": "Manages employee compensation and benefits programs, including salary structures, health insurance, retirement plans, and other perks. Ensures competitive and fair compensation practices.",
+        "emasco_id": "2413-41"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Occupational Health and Safety Officer",
+        "reports_to": "HR Manager",
+        "description": "Develops and enforces safety policies, conducts safety training, performs safety audits, and ensures compliance with safety regulations.",
+        "emasco_id": "2263-06"
+    },
+    {
+        "Job Level": "Support",
+        "title": "HR Generalist",
+        "reports_to": "HR Manager",
+        "description": "Provides support across various HR functions, including recruitment, employee relations, training, and compliance. Acts as a point of contact for employees with HR-related queries.",
+        "emasco_id": "4416-10"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Payroll Executive",
+        "reports_to": "HR Manager",
+        "description": "Manages payroll processing, ensures accurate and timely payment of salaries, and handles payroll-related queries. Ensures compliance with tax regulations and labor laws.",
+        "emasco_id": "2411-30"
+    },
+    {
+        "Job Level": "Support",
+        "title": "HR Analyst",
+        "reports_to": "HR Manager",
+        "description": "Analyzes HR data to identify trends and make recommendations for improvements. Prepares reports on HR metrics such as turnover rates, employee satisfaction, and training effectiveness.",
+        "emasco_id": "2423-12"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Compliance Officer",
+        "reports_to": "HR Manager",
+        "description": "Ensures the company complies with all labor laws and regulations. Develops and implements policies to maintain compliance and conducts regular audits to identify and address any issues.",
+        "emasco_id": "2431-11"
+    },
+    {
+        "Job Level": "Tech",
+        "title": "Facilities Supervisor",
+        "reports_to": "Maintenance Manager",
+        "description": "Oversees the maintenance and operations of the manufacturing facility, ensures safety and compliance, manages budgets, and coordinates with other departments.",
+        "emasco_id": "3122-32"
+    },
+    {
+        "Job Level": "Mgr",
+        "title": "Maintenance Manager",
+        "reports_to": "Chief Operating Officer (COO)",
+        "description": "Supervises maintenance staff, schedules repairs and maintenance tasks, ensures equipment is functioning properly, and maintains maintenance records.",
+        "emasco_id": "1321-14"
+    },
+    {
+        "Job Level": "Tech",
+        "title": "Equipment Technician",
+        "reports_to": "Maintenance Manager",
+        "description": "Equipment Technician involved in various industries. Responsibilities vary by job title. May be referred to as audio video equipment technician, medical equipment technician, heavy equipment technician, etc. according to the type of industry they work in. Involved in the installation, repair and maintenance of related equipment and training users on how to use it properly.",
+        "emasco_id": "3115-48"
+    },
+    {
+        "Job Level": "Tech",
+        "title": "Machine Technician",
+        "reports_to": "Maintenance Manager",
+        "description": "Machine Technician responsible for ensuring that all machinery and machine tools are working properly. ",
+        "emasco_id": "3115-25"
+    },
+    {
+        "Job Level": "Tech",
+        "title": "Manufacturing Technician",
+        "reports_to": "Manufacturing Manager",
+        "description": "Manufacturing Technician responsible for the planning and execution of production processes. They monitor quality standards and costs and provide administrative support. Their duties include procuring raw materials and equipment, appointing laborers, and liaizing with other departments.",
+        "emasco_id": "3119-53"
+    },
+    {
+        "Job Level": "Support",
+        "title": "Clerk, Facilities Maintenance",
+        "reports_to": "Maintenance Manager",
+        "description": "Assists the Facilities Supervisor with administrative tasks, coordinates facility-related projects, and manages vendor relationships.",
+        "emasco_id": "4322-26"
+    },
+    {
+        "Job Level": "Ops",
+        "title": "Custodian/Janitor",
+        "reports_to": "Maintenance Manager",
+        "description": "Performs cleaning tasks, maintains cleanliness of the facility, and ensures sanitary conditions in all areas.",
+        "emasco_id": "5153-09"
+    },
+    {
+        "Job Level": "Mgr",
+        "title": "Security Manager",
+        "reports_to": "Chief Human Resources Officer (CHRO)",
+        "description": "Manages security staff, develops security policies, monitors security systems, and ensures the safety of employees and assets.",
+        "emasco_id": "1623-01"
+    },
+    {
+        "Job Level": "Ops",
+        "title": "Cleaner, Building Exteriors",
+        "reports_to": "Maintenance Manager",
+        "description": "Maintains the exterior of the facility, including landscaping, snow removal, and general upkeep of outdoor areas.",
+        "emasco_id": "7133-01"
+    },
+    {
+        "Job Level": "Mgr",
+        "title": "Industrial Engineering Manager",
+        "reports_to": "Chief Executive Officer (CEO)",
+        "description": "Plan and manage all aspects of industrial engineering activities, conduct studies to maximize workflow, and recommend equipment for production lines",
+        "emasco_id": ""
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Industrial Engineer",
+        "reports_to": "Industrial Engineering Manager",
+        "description": "Analyze and improve manufacturing processes, develop quality control systems, and optimize efficiency.",
+        "emasco_id": "2141-03"
+    },
+    {
+        "Job Level": "Support",
+        "title": "Manufacturing Engineer",
+        "reports_to": "Manufacturing Manager",
+        "description": "Design and implement manufacturing processes, ensure equipment efficiency, and troubleshoot issues.",
+        "emasco_id": "0131-65"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Quality Assurance Engineer",
+        "reports_to": "Quality Control Manager",
+        "description": "Conduct research and improve or develop concepts, theories and operational methods, or apply existing knowledge concerning the production of food, paper, sawmill, warehouse as well as quality assurance.",
+        "emasco_id": "2182-03"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Process Engineer",
+        "reports_to": "Industrial Engineering Manager",
+        "description": "Design, implement, and optimize production processes, and ensure compliance with safety standards.",
+        "emasco_id": "2141-68"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Industrial Health and Safety Engineer",
+        "reports_to": "Occupational Health and Safety Officer",
+        "description": "Ensure workplace safety, conduct risk assessments, and implement safety protocols.",
+        "emasco_id": "2149-07"
+    },
+    {
+        "Job Level": "Mgr",
+        "title": "Manufacturing Manager",
+        "reports_to": "Chief Operating Officer (COO)",
+        "description": "Plans, oversees and direct the manufacturing process in an organisation. They ensure products and services are efficiently produced within the timeframe and budget given.",
+        "emasco_id": "1321-01"
+    },
+    {
+        "Job Level": "Tech",
+        "title": "Production Supervisor",
+        "reports_to": "Manufacturing Manager",
+        "description": "Supervise production line activities, ensure quality standards, and manage team performance.",
+        "emasco_id": "3122-02"
+    },
+    {
+        "Job Level": "Tech",
+        "title": "Logistics Supervisor",
+        "reports_to": "Supply Manager",
+        "description": "Plan, direct, or coordinate transportation, storage, or distribution activities in accordance with organizational policies and applicable government laws or regulations.",
+        "emasco_id": "3159-02"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Inventory Coordinator",
+        "reports_to": "Supply Manager",
+        "description": "Ensure companies have all the products, materials, equipment and supplies they need to operate efficiently in ways that are aligned to established policies and standards.",
+        "emasco_id": "2182-55"
+    },
+    {
+        "Job Level": "Mgr",
+        "title": "Supply Manager",
+        "reports_to": "Chief Operating Officer (COO)",
+        "description": "Responsible for overseeing the procurement, inventory management, and distribution of goods and services within the organization. They ensure the timely availability of materials while optimizing costs and maintaining quality standards. ",
+        "emasco_id": "1324-03"
+    },
+    {
+        "Job Level": "Mgr",
+        "title": "Quality Control Manager",
+        "reports_to": "Chief Operating Officer (COO)",
+        "description": "Develop and implement quality control procedures, conduct inspections, and ensure product standards. Responsible for plan, direct and responsible for overall development, implementation, and maintenance of the organization’s Quality Management System",
+        "emasco_id": "1216-01"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Production Planner",
+        "reports_to": "Manufacturing Manager",
+        "description": "Schedule production runs, manage inventory levels, and coordinate with other departments.",
+        "emasco_id": "2182-01"
+    },
+    {
+        "Job Level": "Mgr",
+        "title": "IT Support Manager",
+        "reports_to": "Chief Information Officer (CIO)",
+        "description": "Plan, lead and oversees computer system and software maintenance and repair; assists with computer equipment purchasing and installation; and maintains networks and connectivity for users.",
+        "emasco_id": "1511-34"
+    },
+    {
+        "Job Level": "Mgr",
+        "title": "Management Informatiom System Manager",
+        "reports_to": "Chief Information Officer (CIO)",
+        "description": "Responsible for the planning and implementation of hardware and software applications ",
+        "emasco_id": "1511-48"
+    },
+    {
+        "Job Level": "Mgr",
+        "title": "Application Development Manager",
+        "reports_to": "Chief Information Officer (CIO)",
+        "description": "Plans, coordinates and supervises all activities related to the detailed design, development, and implementation of software or application. ",
+        "emasco_id": "1511-12"
+    },
+    {
+        "Job Level": "Mgr",
+        "title": "Computer Security Manager",
+        "reports_to": "Chief Information Officer (CIO)",
+        "description": "Computer Security Manager planning and carrying out security measures that will protect a business’s data and information from deliberate attack, unauthorised access, corruption and theft.",
+        "emasco_id": "1511-21"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Network Analyst",
+        "reports_to": "IT Support Manager",
+        "description": "Maintain and manage the company's network infrastructure, troubleshoot network issues, and ensure network security",
+        "emasco_id": "2523-01"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Technical System Administrator",
+        "reports_to": "Management Informatiom System Manager",
+        "description": "Technical System Administrator responsible for the configuration, maintenance, and reliable operation of computer systems and servers within an organization",
+        "emasco_id": "2522-36"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Software Developer",
+        "reports_to": "Application Development Manager",
+        "description": "Design, develop, and maintain software applications to support manufacturing operations",
+        "emasco_id": "2512-01"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Database Administrator",
+        "reports_to": "Management Informatiom System Manager",
+        "description": "Manage and maintain databases, ensure data integrity, and optimize database performance",
+        "emasco_id": "2521-03"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "IT Support Officer",
+        "reports_to": "IT Support Manager",
+        "description": "Provide technical support to staff, troubleshoot hardware and software issues, and maintain IT equipment",
+        "emasco_id": "2522-08"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Cybersecurity Specialist",
+        "reports_to": "Chief Information Officer (CIO)",
+        "description": "Implement and manage security measures to protect the company's IT infrastructure from cyber threats",
+        "emasco_id": "2531-17"
+    },
+    {
+        "Job Level": "Mgr",
+        "title": "Marketing Manager",
+        "reports_to": "Chief Marketing Officer (CMO)",
+        "description": "Plan and execute marketing campaigns, conduct market research, and manage marketing budgets.",
+        "emasco_id": "1221-04"
+    },
+    {
+        "Job Level": "Mgr",
+        "title": "Brand Manager",
+        "reports_to": "Chief Marketing Officer (CMO)",
+        "description": "Maintain and enhance the company's brand image, ensure consistency in branding efforts.",
+        "emasco_id": "1221-08"
+    },
+    {
+        "Job Level": "Mgr",
+        "title": "Digital Marketing Manager",
+        "reports_to": "Chief Marketing Officer (CMO)",
+        "description": "Develop and manage digital marketing strategies, oversee online campaigns, and analyze digital performance.",
+        "emasco_id": "1221-04"
+    },
+    {
+        "Job Level": "Mgr",
+        "title": "Product Marketing Manager",
+        "reports_to": "Marketing Manager",
+        "description": "Focus on marketing specific products, develop product positioning, and create go-to-market strategies.",
+        "emasco_id": "1221-07"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "SEO Specialist",
+        "reports_to": "Digital Marketing Manager",
+        "description": "Improve the company's search engine rankings, optimize website content, and manage SEO strategies.",
+        "emasco_id": "2431-20"
+    },
+    {
+        "Job Level": "Pro",
+        "title": "Content Marketing Specialist",
+        "reports_to": "Digital Marketing Manager",
+        "description": "Create and manage content for marketing campaigns, including blogs, social media, and other digital content.",
+        "emasco_id": "2543-24"
+    },
+    {
+        "Job Level": "Mgr",
+        "title": "Social Media Manager",
+        "reports_to": "Marketing Manager",
+        "description": "Manage the company's social media presence, create engaging content, and interact with followers.",
+        "emasco_id": "1511-46"
+    }
+]
