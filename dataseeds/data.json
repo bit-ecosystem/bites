@@ -1,0 +1,59 @@
+{
+    "pcf_tiers": [
+        {
+            "id": 1,
+            "level": "Category",
+            "description": "1st Tier of Process Clasification Frameworks"
+        },
+        {
+            "id": 2,
+            "level": "Function",
+            "description": "2nd Tier of Process Clasification Frameworks called Process Group"
+        },
+        {
+            "id": 3,
+            "level": "Segment",
+            "description": "3rd Tier of Process Clasification Frameworks called Process"
+        },
+        {
+            "id": 4,
+            "level": "Activity",
+            "description": "4th Tier of Process Clasification Frameworks called Activity"
+        },
+        {
+            "id": 5,
+            "level": "Process",
+            "description": "5th Tier of Process Clasification Frameworks called Task, this is the start for each process workflow. Consist of an arrangement of workpackages to produce an outcome"
+        },
+        {
+            "id": 6,
+            "level": "Workpackage",
+            "description": "Part of process workflow. Consist of an arrangement of 1 or more tasks and if any, asset item, to to be completed by a single defined job role"
+        },
+        {
+            "id": 7,
+            "level": "Task",
+            "description": "Part of process workflow. A usually assigned piece of work often to be finished within a certain time"
+        }
+    ],
+    "pcfs": [
+        {
+            "hierarchy_code": "1.0",
+            "name": "Develop Vision and Strategy",
+            "definition": "Establishing a direction and vision for an organization. This involves defining the business concept and long-term vision, as well as developing the business strategy and managing strategic initiatives. Processes in this category focus on creating a vision, a mission, and strategic objectives, and culminate in creating measures to ensure that the organization is moving in the desired direction.",
+            "pcf_tier_id": 1
+        },
+        {
+            "hierarchy_code": "1.1",
+            "name": "Define the business concept and long-term vision",
+            "definition": "Creating a conceptual framework of the organization's business activity and strategic vision with long-term applicability. Scout the organization's internal capabilities, as well as the customer's needs and desires, to identify a fit that can be used to advance a conceptual structure of the organization's business activity. Conduct analysis in light of relevant externalities and large-scale shifts in the market landscape.",
+            "pcf_tier_id": 2
+        },
+        {
+            "hierarchy_code": "1.1.1",
+            "name": "Assess the external environment",
+            "definition": "Assessing all forces, entities, and systems that are external to an organization but can affect its operation. Analyze far-reaching currents in the macroeconomic situation, assess the competition, evaluate technological changes, and identify societal as well as ecological issues of concern. Create a big-picture understanding of externalities, with sufficient depth across individual aspects.",
+            "pcf_tier_id": 3
+        }
+    ]
+}
