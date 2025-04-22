@@ -1,0 +1,7 @@
+{
+    "weeks": ["Week 1", "Week 2", "Week 3", "Week 4"],
+    "total_operations": [90, 90, 97, 89],
+    "average_efficiency": [85.5, 86.0, 87.0, 88.0],
+    "total_downtime": [12, 20, 8, 6]
+}
+

@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "title": "New Year's Day",
+        "start": "2025-01-01",
+        "end": "2025-01-01",
+        "allDay": "true",
+        "backgroundColor": "#ff0000",
+        "editable": "false"
+    },
+    {
+        "id": 2,
+        "title": "Independence Day",
+        "start": "2025-01-11",
+        "end": "2025-01-11",
+        "display": "background",
+        "editable": "false"
+    },
+    {
+        "id": 3,
+        "title": "Christmas Day",
+        "start": "2025-2-25",
+        "end": "2025-2-25"
+    }
+]

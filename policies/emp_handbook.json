@@ -1,0 +1,195 @@
+{
+    "sections": [
+      {
+        "title": "Welcome and Introduction",
+        "subsections": [
+          {
+            "title": "Welcome Letter",
+            "content": "A personal note from the CEO or company leader, expressing gratitude and excitement for the new employee joining the team."
+          },
+          {
+            "title": "Company Overview",
+            "content": "A brief history of the company, its mission, vision, and core values. This helps employees understand the bigger picture and their role within the organization.",
+            "app": "/storage/policies/company-overview.pdf",
+            "pdfLink": "/storage/policies/confirmation-letter.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Employment Policies",
+        "subsections": [
+          {
+            "title": "Employment Classifications",
+            "content": "Defines different types of employment (full-time, part-time, exempt, non-exempt) and their respective benefits and responsibilities.",
+            "pdfLink": "/storage/policies/employment-classifications.pdf"
+          },
+          {
+            "title": "Overtime Policies",
+            "content": "Explains how overtime is calculated and compensated, in accordance with labor laws.",
+            "pdfLink": "/storage/policies/overtime-policies.pdf"
+          },
+          {
+            "title": "Attendance and Punctuality",
+            "content": "Sets expectations for regular attendance, punctuality, and procedures for reporting absences.",
+            "pdfLink": "/storage/policies/attendance-punctuality.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Company Policies",
+        "subsections": [
+          {
+            "title": "Employment At-Will",
+            "content": "Clarifies that employment is voluntary and can be terminated by either the employee or the employer at any time, with or without cause.",
+            "pdfLink": "/storage/policies/employment-at-will.pdf"
+          },
+          {
+            "title": "Equal Opportunity and Anti-Harassment",
+            "content": "Outlines the company's commitment to providing a workplace free from discrimination and harassment, including procedures for reporting and addressing complaints.",
+            "pdfLink": "/storage/policies/equal-opportunity.pdf"
+          },
+          {
+            "title": "Work Authorization",
+            "content": "Details the requirements for legal work authorization, such as completing an I-9 form.",
+            "pdfLink": "/storage/policies/work-authorization.pdf"
+          }
+        ]
+      },
+
+      {
+        "title": "Workplace Conduct",
+        "subsections": [
+          {
+            "title": "Code of Conduct",
+            "content": "Describes expected professional behavior, including ethical standards and conflict of interest policies.",
+            "pdfLink": "/storage/policies/code-of-conduct.pdf"
+          },
+          {
+            "title": "Dress Code",
+            "content": "Provides guidelines on appropriate workplace attire, which may vary by role or department.",
+            "pdfLink": "/storage/policies/dress-code.pdf"
+          },
+          {
+            "title": "Use of Company Property",
+            "content": "Rules for using company equipment, internet, and other resources responsibly.",
+            "pdfLink": "/storage/policies/use-of-company-property.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Compensation and Benefits",
+        "subsections": [
+          {
+            "title": "Salary and Wages",
+            "content": "Information on pay periods, direct deposit, and how salaries are determined.",
+            "pdfLink": "/storage/policies/salary-wages.pdf"
+          },
+          {
+            "title": "Benefits Overview",
+            "content": "Details on health insurance, retirement plans, and other employee benefits.",
+            "pdfLink": "/storage/policies/benefits-overview.pdf"
+          },
+          {
+            "title": "Leave Policies",
+            "content": "Information on various types of leave, such as sick leave, vacation, and parental leave, including how to request and use them.",
+            "pdfLink": "/storage/policies/leave-policies.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Health and Safety",
+        "subsections": [
+          {
+            "title": "Workplace Safety",
+            "content": "Guidelines for maintaining a safe work environment, including reporting hazards and following safety protocols.",
+            "pdfLink": "/storage/policies/workplace-safety.pdf"
+          },
+          {
+            "title": "Accident Reporting",
+            "content": "Procedures for reporting workplace injuries or accidents.",
+            "pdfLink": "/storage/policies/accident-reporting.pdf"
+          },
+          {
+            "title": "Emergency Procedures",
+            "content": "Instructions for what to do in case of emergencies, such as fire or natural disasters.",
+            "pdfLink": "/storage/policies/emergency-procedures.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Technology and Social Media",
+        "subsections": [
+          {
+            "title": "Acceptable Use Policy",
+            "content": "Rules for using company technology, including computers, email, and internet access.",
+            "pdfLink": "/storage/policies/acceptable-use.pdf"
+          },
+          {
+            "title": "Social Media Guidelines",
+            "content": "Expectations for employees' use of social media, both personally and professionally, to protect the company's reputation.",
+            "pdfLink": "/storage/policies/social-media-guidelines.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Performance and Development",
+        "subsections": [
+          {
+            "title": "Performance Evaluations",
+            "content": "The process for regular performance reviews, including criteria and frequency.",
+            "pdfLink": "/storage/policies/performance-evaluations.pdf"
+          },
+          {
+            "title": "Training and Development",
+            "content": "Opportunities for professional growth, such as training programs, workshops, and tuition reimbursement.",
+            "pdfLink": "/storage/policies/training-development.pdf"
+          },
+          {
+            "title": "Promotion Policies",
+            "content": "Criteria and procedures for career advancement within the company.",
+            "pdfLink": "/storage/policies/promotion-policies.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Disciplinary Procedures",
+        "subsections": [
+          {
+            "title": "Addressing Misconduct",
+            "content": "Steps for handling employee misconduct, including verbal and written warnings.",
+            "pdfLink": "/storage/policies/addressing-misconduct.pdf"
+          },
+          {
+            "title": "Disciplinary Actions",
+            "content": "Possible consequences for violations of company policies, up to and including termination.",
+            "pdfLink": "/storage/policies/disciplinary-actions.pdf"
+          },
+          {
+            "title": "Appeal Process",
+            "content": "How employees can appeal disciplinary decisions if they believe they were unjust.",
+            "pdfLink": "/storage/policies/appeal-process.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Separation and Termination",
+        "subsections": [
+          {
+            "title": "Resignation Procedures",
+            "content": "Guidelines for providing notice and the process for leaving the company.",
+            "pdfLink": "/storage/policies/resignation-procedures.pdf"
+          },
+          {
+            "title": "Termination Policies",
+            "content": "Conditions under which an employee may be terminated and the procedures followed.",
+            "pdfLink": "/storage/policies/termination-policies.pdf"
+          },
+          {
+            "title": "Exit Interviews",
+            "content": "The purpose and process of exit interviews to gather feedback from departing employees.",
+            "pdfLink": "/storage/policies/exit-interviews.pdf"
+          }
+        ]
+      }
+    ]
+  }
