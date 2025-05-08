@@ -1,6 +1,7 @@
 {
     "org_job_positions": [
         {
+            "status": "Drafted",
             "title": "Chief Executive Officer (CEO)",
             "description": "The highest-ranking executive, responsible for overall company strategy and decision-making",
             "role": "C-Level, CEO",
@@ -8,6 +9,7 @@
             "emasco": "1121-01"
         },
         {
+            "status": "Drafted",
             "title": "Chief Operating Officer (COO)",
             "reports_to_id": 1,
             "description": "Oversees the company's day-to-day operations and ensures operational efficiency",
@@ -16,6 +18,7 @@
             "emasco": "1121-02"
         },
         {
+            "status": "Drafted",
             "title": "Chief Financial Officer (CFO)",
             "reports_to_id": 1,
             "description": "Provides overall financial strategy, oversees financial operations, manages investment decisions, and ensures financial integrity.",
@@ -24,6 +27,7 @@
             "emasco": "1211-09"
         },
         {
+            "status": "Drafted",
             "title": "Chief Human Resources Officer (CHRO)",
             "reports_to_id": 1,
             "description": "Plan, organise, direct, control and coordinate policies concerning the personnel, industrial relations and occupational safety and health of an enterprise or organisation, or of enterprises that provide human resource services to other enterprises and organisations.",
@@ -32,6 +36,7 @@
             "emasco": "1212-01"
         },
         {
+            "status": "Drafted",
             "title": "Chief Marketing Officer (CMO)",
             "reports_to_id": 1,
             "description": "Leads the marketing department, developing strategies to promote the company's products or services",
@@ -40,6 +45,7 @@
             "emasco": "1221-01"
         },
         {
+            "status": "Drafted",
             "title": "Chief Information Officer (CIO)",
             "reports_to_id": 1,
             "description": "Manages the company's IT strategy and infrastructure",
@@ -48,6 +54,7 @@
             "emasco": "1511-01"
         },
         {
+            "status": "Drafted",
             "title": "Industrial Engineering Manager",
             "reports_to_id": 1,
             "description": "Plan and manage all aspects of industrial engineering activities, conduct studies to maximize workflow, and recommend equipment for production lines",
@@ -56,6 +63,7 @@
             "emasco": ""
         },
         {
+            "status": "Drafted",
             "title": "Treasury Manager",
             "reports_to_id": 3,
             "description": "Manages the company's liquidity, investments, and financial assets, oversees cash flow, and develops strategies to optimize financial resources.",
@@ -64,6 +72,7 @@
             "emasco": "1211-10"
         },
         {
+            "status": "Drafted",
             "title": "Risk Manager",
             "reports_to_id": 3,
             "description": "Identifies and assesses financial risks, develops risk management strategies and policies, and works to mitigate potential financial losses.",
@@ -72,6 +81,7 @@
             "emasco": "1211-19"
         },
         {
+            "status": "Drafted",
             "title": "Supply Chain Manager",
             "reports_to_id": 3,
             "description": "Oversees purchasing and supply chain finance, negotiates with suppliers, manages contracts, and works towards reducing costs without compromising on quality.",
@@ -80,6 +90,7 @@
             "emasco": "1214-11"
         },
         {
+            "status": "Drafted",
             "title": "Accountant",
             "reports_to_id": 3,
             "description": "Manages financial records, prepares financial statements, handles accounts payable and receivable, and ensures compliance with accounting standards.",
@@ -88,6 +99,7 @@
             "emasco": "2411-06"
         },
         {
+            "status": "Drafted",
             "title": "Financial Controller",
             "reports_to_id": 3,
             "description": "Supervises the accounting team, manages company ledgers, ensures compliance with financial regulations, and maintains financial reporting integrity.",
@@ -96,6 +108,7 @@
             "emasco": "2411-20"
         },
         {
+            "status": "Drafted",
             "title": "Financial Officer",
             "reports_to_id": 3,
             "description": "Develops financial plans and forecasts, analyzes market trends, oversees budgeting, and manages financial risks.",
@@ -104,6 +117,7 @@
             "emasco": "2412-15"
         },
         {
+            "status": "Drafted",
             "title": "Financial Analyst",
             "reports_to_id": 3,
             "description": "Analyzes financial data, identifies trends, prepares reports, and provides recommendations to improve financial performance.",
@@ -112,6 +126,7 @@
             "emasco": "2413-01"
         },
         {
+            "status": "Drafted",
             "title": "Audit Clerk",
             "reports_to_id": 3,
             "description": "Records day-to-day financial transactions, maintains accurate financial records, and assists in preparing financial reports.",
@@ -120,6 +135,7 @@
             "emasco": "4311-14"
         },
         {
+            "status": "Drafted",
             "title": "Quality Control Manager",
             "reports_to_id": 2,
             "description": "Develop and implement quality control procedures, conduct inspections, and ensure product standards. Responsible for plan, direct and responsible for overall development, implementation, and maintenance of the organization’s Quality Management System",
@@ -128,6 +144,7 @@
             "emasco": "1216-01"
         },
         {
+            "status": "Drafted",
             "title": "Manufacturing Manager",
             "reports_to_id": 2,
             "description": "Plans, oversees and direct the manufacturing process in an organisation. They ensure products and services are efficiently produced within the timeframe and budget given.",
@@ -136,6 +153,7 @@
             "emasco": "1321-01"
         },
         {
+            "status": "Drafted",
             "title": "Maintenance Manager",
             "reports_to_id": 17,
             "description": "Supervises maintenance staff, schedules repairs and maintenance tasks, ensures equipment is functioning properly, and maintains maintenance records.",
@@ -144,6 +162,7 @@
             "emasco": "1321-14"
         },
         {
+            "status": "Drafted",
             "title": "Supply Manager",
             "reports_to_id": 2,
             "description": "Responsible for overseeing the procurement, inventory management, and distribution of goods and services within the organization. They ensure the timely availability of materials while optimizing costs and maintaining quality standards. ",
@@ -152,6 +171,7 @@
             "emasco": "1324-03"
         },
         {
+            "status": "Drafted",
             "title": "Marketing Manager",
             "reports_to_id": 5,
             "description": "Plan and execute marketing campaigns, conduct market research, and manage marketing budgets.",
@@ -160,6 +180,7 @@
             "emasco": "1221-04"
         },
         {
+            "status": "Drafted",
             "title": "Digital Marketing Manager",
             "reports_to_id": 5,
             "description": "Develop and manage digital marketing strategies, oversee online campaigns, and analyze digital performance.",
@@ -168,6 +189,7 @@
             "emasco": "1221-04"
         },
         {
+            "status": "Drafted",
             "title": "Brand Manager",
             "reports_to_id": 5,
             "description": "Maintain and enhance the company's brand image, ensure consistency in branding efforts.",
@@ -176,6 +198,7 @@
             "emasco": "1221-08"
         },
         {
+            "status": "Drafted",
             "title": "Application Development Manager",
             "reports_to_id": 6,
             "description": "Plans, coordinates and supervises all activities related to the detailed design, development, and implementation of software or application. ",
@@ -184,6 +207,7 @@
             "emasco": "1511-12"
         },
         {
+            "status": "Drafted",
             "title": "Computer Security Manager",
             "reports_to_id": 6,
             "description": "Computer Security Manager planning and carrying out security measures that will protect a business’s data and information from deliberate attack, unauthorised access, corruption and theft.",
@@ -192,6 +216,7 @@
             "emasco": "1511-21"
         },
         {
+            "status": "Drafted",
             "title": "IT Support Manager",
             "reports_to_id": 6,
             "description": "Plan, lead and oversees computer system and software maintenance and repair; assists with computer equipment purchasing and installation; and maintains networks and connectivity for users.",
@@ -200,6 +225,7 @@
             "emasco": "1511-34"
         },
         {
+            "status": "Drafted",
             "title": "Management Informatiom System Manager",
             "reports_to_id": 6,
             "description": "Responsible for the planning and implementation of hardware and software applications ",
@@ -208,6 +234,7 @@
             "emasco": "1511-48"
         },
         {
+            "status": "Drafted",
             "title": "Cybersecurity Specialist",
             "reports_to_id": 6,
             "description": "Implement and manage security measures to protect the company's IT infrastructure from cyber threats",
@@ -216,6 +243,7 @@
             "emasco": "2531-17"
         },
         {
+            "status": "Drafted",
             "title": "HR Manager",
             "reports_to_id": 4,
             "description": "Oversees the HR department, develops HR strategies, manages recruitment and selection processes, ensures compliance with labor laws, and handles employee relations and performance management.",
@@ -224,6 +252,7 @@
             "emasco": "1212-02"
         },
         {
+            "status": "Drafted",
             "title": "Security Manager",
             "reports_to_id": 4,
             "description": "Manages security staff, develops security policies, monitors security systems, and ensures the safety of employees and assets.",
@@ -232,6 +261,7 @@
             "emasco": "1623-01"
         },
         {
+            "status": "Drafted",
             "title": "Occupational Health and Safety Officer",
             "reports_to_id": 28,
             "description": "Develops and enforces safety policies, conducts safety training, performs safety audits, and ensures compliance with safety regulations.",
@@ -240,6 +270,7 @@
             "emasco": "2263-06"
         },
         {
+            "status": "Drafted",
             "title": "Payroll Executive",
             "reports_to_id": 28,
             "description": "Manages payroll processing, ensures accurate and timely payment of salaries, and handles payroll-related queries. Ensures compliance with tax regulations and labor laws.",
@@ -248,6 +279,7 @@
             "emasco": "2411-30"
         },
         {
+            "status": "Drafted",
             "title": "Compensation and Benefits Specialist",
             "reports_to_id": 28,
             "description": "Manages employee compensation and benefits programs, including salary structures, health insurance, retirement plans, and other perks. Ensures competitive and fair compensation practices.",
@@ -256,6 +288,7 @@
             "emasco": "2413-41"
         },
         {
+            "status": "Drafted",
             "title": "Recruitment Specialist",
             "reports_to_id": 28,
             "description": "Manages the hiring process, including job postings, screening resumes, conducting interviews, and onboarding new employees. Works closely with department managers to understand staffing needs.",
@@ -264,6 +297,7 @@
             "emasco": "2423-12"
         },
         {
+            "status": "Drafted",
             "title": "HR Analyst",
             "reports_to_id": 28,
             "description": "Analyzes HR data to identify trends and make recommendations for improvements. Prepares reports on HR metrics such as turnover rates, employee satisfaction, and training effectiveness.",
@@ -272,6 +306,7 @@
             "emasco": "2423-12"
         },
         {
+            "status": "Drafted",
             "title": "Training and Development Manager",
             "reports_to_id": 28,
             "description": "Identifies training needs, develops training programs, and conducts training sessions. Ensures employees have the necessary skills and knowledge to perform their jobs effectively.",
@@ -280,6 +315,7 @@
             "emasco": "2424-04"
         },
         {
+            "status": "Drafted",
             "title": "Compliance Officer",
             "reports_to_id": 28,
             "description": "Ensures the company complies with all labor laws and regulations. Develops and implements policies to maintain compliance and conducts regular audits to identify and address any issues.",
@@ -288,6 +324,7 @@
             "emasco": "2431-11"
         },
         {
+            "status": "Drafted",
             "title": "HR Generalist",
             "reports_to_id": 28,
             "description": "Provides support across various HR functions, including recruitment, employee relations, training, and compliance. Acts as a point of contact for employees with HR-related queries.",
@@ -296,6 +333,7 @@
             "emasco": "4416-10"
         },
         {
+            "status": "Drafted",
             "title": "Industrial Health and Safety Engineer",
             "reports_to_id": 30,
             "description": "Ensure workplace safety, conduct risk assessments, and implement safety protocols.",
@@ -304,6 +342,7 @@
             "emasco": "2149-07"
         },
         {
+            "status": "Drafted",
             "title": "Machine Technician",
             "reports_to_id": 18,
             "description": "Machine Technician responsible for ensuring that all machinery and machine tools are working properly. ",
@@ -312,6 +351,7 @@
             "emasco": "3115-25"
         },
         {
+            "status": "Drafted",
             "title": "Equipment Technician",
             "reports_to_id": 18,
             "description": "Equipment Technician involved in various industries. Responsibilities vary by job title. May be referred to as audio video equipment technician, medical equipment technician, heavy equipment technician, etc. according to the type of industry they work in. Involved in the installation, repair and maintenance of related equipment and training users on how to use it properly.",
@@ -320,6 +360,7 @@
             "emasco": "3115-48"
         },
         {
+            "status": "Drafted",
             "title": "Facilities Supervisor",
             "reports_to_id": 2,
             "description": "Oversees the maintenance and operations of the manufacturing facility, ensures safety and compliance, manages budgets, and coordinates with other departments.",
@@ -328,6 +369,7 @@
             "emasco": "3122-32"
         },
         {
+            "status": "Drafted",
             "title": "Clerk, Facilities Maintenance",
             "reports_to_id": 18,
             "description": "Assists the Facilities Supervisor with administrative tasks, coordinates facility-related projects, and manages vendor relationships.",
@@ -336,6 +378,7 @@
             "emasco": "4322-26"
         },
         {
+            "status": "Drafted",
             "title": "Custodian/Janitor",
             "reports_to_id": 18,
             "description": "Performs cleaning tasks, maintains cleanliness of the facility, and ensures sanitary conditions in all areas.",
@@ -344,6 +387,7 @@
             "emasco": "5153-09"
         },
         {
+            "status": "Drafted",
             "title": "Cleaner, Building Exteriors",
             "reports_to_id": 18,
             "description": "Maintains the exterior of the facility, including landscaping, snow removal, and general upkeep of outdoor areas.",
@@ -352,6 +396,7 @@
             "emasco": "7133-01"
         },
         {
+            "status": "Drafted",
             "title": "Industrial Engineer",
             "reports_to_id": 7,
             "description": "Analyze and improve manufacturing processes, develop quality control systems, and optimize efficiency.",
@@ -360,6 +405,7 @@
             "emasco": "2141-03"
         },
         {
+            "status": "Drafted",
             "title": "Process Engineer",
             "reports_to_id": 7,
             "description": "Design, implement, and optimize production processes, and ensure compliance with safety standards.",
@@ -368,6 +414,7 @@
             "emasco": "2141-68"
         },
         {
+            "status": "Drafted",
             "title": "Manufacturing Engineer",
             "reports_to_id": 17,
             "description": "Design and implement manufacturing processes, ensure equipment efficiency, and troubleshoot issues.",
@@ -376,6 +423,7 @@
             "emasco": "0131-65"
         },
         {
+            "status": "Drafted",
             "title": "Production Planner",
             "reports_to_id": 17,
             "description": "Schedule production runs, manage inventory levels, and coordinate with other departments.",
@@ -384,6 +432,7 @@
             "emasco": "2182-01"
         },
         {
+            "status": "Drafted",
             "title": "Manufacturing Technician",
             "reports_to_id": 17,
             "description": "Manufacturing Technician responsible for the planning and execution of production processes. They monitor quality standards and costs and provide administrative support. Their duties include procuring raw materials and equipment, appointing laborers, and liaizing with other departments.",
@@ -392,6 +441,7 @@
             "emasco": "3119-53"
         },
         {
+            "status": "Drafted",
             "title": "Production Supervisor",
             "reports_to_id": 17,
             "description": "Supervise production line activities, ensure quality standards, and manage team performance.",
@@ -400,6 +450,7 @@
             "emasco": "3122-02"
         },
         {
+            "status": "Drafted",
             "title": "Inventory Coordinator",
             "reports_to_id": 19,
             "description": "Ensure companies have all the products, materials, equipment and supplies they need to operate efficiently in ways that are aligned to established policies and standards.",
@@ -408,6 +459,7 @@
             "emasco": "2182-55"
         },
         {
+            "status": "Drafted",
             "title": "Logistics Supervisor",
             "reports_to_id": 19,
             "description": "Plan, direct, or coordinate transportation, storage, or distribution activities in accordance with organizational policies and applicable government laws or regulations.",
@@ -416,6 +468,7 @@
             "emasco": "3159-02"
         },
         {
+            "status": "Drafted",
             "title": "Quality Assurance Engineer",
             "reports_to_id": 16,
             "description": "Conduct research and improve or develop concepts, theories and operational methods, or apply existing knowledge concerning the production of food, paper, sawmill, warehouse as well as quality assurance.",
@@ -424,6 +477,7 @@
             "emasco": "2182-03"
         },
         {
+            "status": "Drafted",
             "title": "IT Support Officer",
             "reports_to_id": 25,
             "description": "Provide technical support to staff, troubleshoot hardware and software issues, and maintain IT equipment",
@@ -432,6 +486,7 @@
             "emasco": "2522-08"
         },
         {
+            "status": "Drafted",
             "title": "Network Analyst",
             "reports_to_id": 25,
             "description": "Maintain and manage the company's network infrastructure, troubleshoot network issues, and ensure network security",
@@ -440,6 +495,7 @@
             "emasco": "2523-01"
         },
         {
+            "status": "Drafted",
             "title": "Database Administrator",
             "reports_to_id": 26,
             "description": "Manage and maintain databases, ensure data integrity, and optimize database performance",
@@ -448,6 +504,7 @@
             "emasco": "2521-03"
         },
         {
+            "status": "Drafted",
             "title": "Technical System Administrator",
             "reports_to_id": 26,
             "description": "Technical System Administrator responsible for the configuration, maintenance, and reliable operation of computer systems and servers within an organization",
@@ -456,6 +513,7 @@
             "emasco": "2522-36"
         },
         {
+            "status": "Drafted",
             "title": "Software Developer",
             "reports_to_id": 23,
             "description": "Design, develop, and maintain software applications to support manufacturing operations",
@@ -464,6 +522,7 @@
             "emasco": "2512-01"
         },
         {
+            "status": "Drafted",
             "title": "Product Marketing Manager",
             "reports_to_id": 20,
             "description": "Focus on marketing specific products, develop product positioning, and create go-to-market strategies.",
@@ -472,6 +531,7 @@
             "emasco": "1221-07"
         },
         {
+            "status": "Drafted",
             "title": "Social Media Manager",
             "reports_to_id": 20,
             "description": "Manage the company's social media presence, create engaging content, and interact with followers.",
@@ -480,6 +540,7 @@
             "emasco": "1511-46"
         },
         {
+            "status": "Drafted",
             "title": "SEO Specialist",
             "reports_to_id": 21,
             "description": "Improve the company's search engine rankings, optimize website content, and manage SEO strategies.",
@@ -488,12 +549,49 @@
             "emasco": "2431-20"
         },
         {
+            "status": "Drafted",
             "title": "Content Marketing Specialist",
             "reports_to_id": 21,
             "description": "Create and manage content for marketing campaigns, including blogs, social media, and other digital content.",
             "role": "Content,Marketing,Specialist",
             "department": "SM",
             "emasco": "2543-24"
+        },
+        {
+            "status": "Drafted",
+            "title": "Customer Service Manager",
+            "reports_to_id": 1,
+            "description": "Ensures that the customers of a company are satisfied with the services. They develop effective customer service procedures, policies, and standards.",
+            "role": "Customer Support, After Sales Service, Account Manager",
+            "department": "SD",
+            "emasco": "1222-06"
+        },
+        {
+            "status": "Drafted",
+            "title": "Chief Technical Officer (CTO)",
+            "reports_to_id": 1,
+            "description": "Oversee all aspects of their company’s technology strategy, including planning for future technologies and systems, developing new products or services, maintaining existing systems, and managing relationships with outside vendors.",
+            "role": "",
+            "department": "RD",
+            "emasco": "1121-04"
+        },
+        {
+            "status": "Drafted",
+            "title": "Research and Development Manager",
+            "reports_to_id": 64,
+            "description": "Plan, direct and coordinate research and development activities, whether internally or externally from an external research organization, to develop or improve methods of technical process, product, knowledge, or use of materials.",
+            "role": "",
+            "department": "RD",
+            "emasco": "1223-01"
+        },
+        {
+            "status": "Drafted",
+            "title": "Business and Product Development Manager",
+            "reports_to_id": 64,
+            "description": "plan, direct and coordinate the business services activities of the company or organization concerned. Responsible for plan, organise, direct, control and coordinate sales and marketing activities of an enterprise or organisation.",
+            "role": "",
+            "department": "",
+            "emasco": "1214-12"
         }
     ]
 }
