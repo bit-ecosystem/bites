@@ -8,7 +8,7 @@
         {
             "id": 2,
             "system": "HRMS",
-            "domain": "https://bit-ecosystem.github.io/bites/sample/hrms"
+            "domain": "https//mwbizapp04.my.ds.amkor.com"
         },
         {
             "id": 3,
@@ -305,10 +305,10 @@
             "title": "Pay slip",
             "description": "Access and download monthly or bi-weekly pay slips.",
             "domain_id": 2,
-            "path": "payroll",
-            "param": "#history",
+            "path": "RC/MyPayslip",
+            "param": "",
             "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/money-in-wallet.svg",
-            "parent_id": 4
+            "parent_id": 2
         },
         {
             "category": "Payroll and Compensation",
@@ -385,10 +385,10 @@
             "title": "Leave Requests",
             "description": "Apply for leave, check leave balances, and track the status of leave requests.",
             "domain_id": 2,
-            "path": "leave",
-            "param": "#apply",
+            "path": "LMS/LeaveApplication",
+            "param": "",
             "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/beach.svg",
-            "parent_id": 7
+            "parent_id": 2
         },
         {
             "category": "Leave and Attendance",
