@@ -1,0 +1,289 @@
+{
+    "departments": {
+        "ATM-Business Unit (ATM-3280)": [
+            "od_bu",
+            "ov_bu",
+            "ou_atm"
+        ],
+        "ATM-Engineering Research & Development (ATM-3170)": [
+            "od_erd",
+            "ov_rd",
+            "ou_atm"
+        ],
+        "ATM-Finance & Accounting (ATM-3140)": [
+            "od_fa",
+            "ov_fa",
+            "ou_atm"
+        ],
+        "ATM-Facility (ATM-3190)": [
+            "od_fd",
+            "ov_ie",
+            "ou_atm"
+        ],
+        "ATM-Factory Technical Program Management (ATM-3310)": [
+            "od_ftpm",
+            "ov_gm",
+            "ou_atm"
+        ],
+        "ATM-General Manager (ATM-3270)": [
+            "od_gm",
+            "ov_gm",
+            "ou_atm"
+        ],
+        "ATM-Human Resources (ATM-3100)": [
+            "od_hr",
+            "ov_hr",
+            "ou_atm"
+        ],
+        "ATM-Industrial Engineering (ATM-3180)": [
+            "od_ie",
+            "ov_ie",
+            "ou_atm"
+        ],
+        "ATM-Information Technology (ATM-3120)": [
+            "od_it",
+            "ov_it",
+            "ou_atm"
+        ],
+        "ATM-Manufacturing 1 (ATM-3250)": [
+            "od_m1",
+            "ov_mo",
+            "ou_atm"
+        ],
+        "ATM-Manufacturing 2 (ATM-3260)": [
+            "od_m2",
+            "ov_mo",
+            "ou_atm"
+        ],
+        "ATM-Manufacturing 3 (ATM-3290)": [
+            "od_m3",
+            "ov_mo",
+            "ou_atm"
+        ],
+        "ATM-Manufacturing 4 (ATM-3320)": [
+            "od_m4",
+            "ov_mo",
+            "ou_atm"
+        ],
+        "ATM-Manufacturing 5 (ATM-3340)": [
+            "od_m5",
+            "ov_mo",
+            "ou_atm"
+        ],
+        "ATM-Manufacturing 6 (ATM-3400)": [
+            "od_m6",
+            "ov_mo",
+            "ou_atm"
+        ],
+        "ATM-Manufacturing Engineering Front Of Line (ATM-3350)": [
+            "od_mefol",
+            "ov_me",
+            "ou_atm"
+        ],
+        "ATM-Manufacturing Engineering Production & System (ATM-3370)": [
+            "od_meps",
+            "ov_me",
+            "ou_atm"
+        ],
+        "ATM-Manufacturing Engineering Test (ATM-3380)": [
+            "od_met",
+            "ov_me",
+            "ou_atm"
+        ],
+        "ATM-Planning & Customer Services (ATM-3150)": [
+            "od_pcs",
+            "ov_pc",
+            "ou_atm"
+        ],
+        "ATM-Product Engineering (ATM-3210)": [
+            "od_pe",
+            "ov_rd",
+            "ou_atm"
+        ],
+        "ATM-Procurement & Logistic (ATM-3110)": [
+            "od_pl",
+            "ov_pl",
+            "ou_atm"
+        ],
+        "ATM-Quality Assurance (ATM-3200)": [
+            "od_qa",
+            "ov_qa",
+            "ou_atm"
+        ],
+        "ATM-Security & Safety (ATM-3220)": [
+            "od_ss",
+            "ov_hr",
+            "ou_atm"
+        ]
+    },
+    "job_titles": {
+        "Buyer": [
+            "pg_buyer"
+        ],
+        "Chargeman": [
+            "pg_chargeman"
+        ],
+        "Chief Specialist": [
+            "pg_chief_specialist"
+        ],
+        "Clerk": [
+            "pg_clerk"
+        ],
+        "Director": [
+            "pg_director"
+        ],
+        "Driver": [
+            "pg_driver"
+        ],
+        "Engineer": [
+            "pg_engineer"
+        ],
+        "Industrial Trainee": [
+            "pg_industrial_trainee"
+        ],
+        "Manager": [
+            "pg_manager"
+        ],
+        "Officer": [
+            "pg_officer"
+        ],
+        "Operator": [
+            "pg_operator"
+        ],
+        "Planner": [
+            "pg_planner"
+        ],
+        "Security Guard": [
+            "pg_security_guard"
+        ],
+        "Senior Buyer": [
+            "pg_sn_buyer",
+            "pg_buyer"
+        ],
+        "Senior Chargeman": [
+            "pg_sn_chargeman",
+            "pg_chargeman"
+        ],
+        "Senior Clerk": [
+            "pg_sn_clerk",
+            "pg_clerk"
+        ],
+        "Senior Director": [
+            "pg_sn_director",
+            "pg_director"
+        ],
+        "Senior Driver": [
+            "pg_sn_driver",
+            "pg_driver"
+        ],
+        "Senior Engineer": [
+            "pg_sn_engineer",
+            "pg_engineer"
+        ],
+        "Senior Manager": [
+            "pg_sn_manager",
+            "pg_manager"
+        ],
+        "Senior Officer": [
+            "pg_sn_officer",
+            "pg_officer"
+        ],
+        "Senior Operator": [
+            "pg_sn_operator",
+            "pg_operator"
+        ],
+        "Senior Planner": [
+            "pg_sn_planner",
+            "pg_planner"
+        ],
+        "Senior Staff Engineer": [
+            "pg_sn_staff_engineer",
+            "pg_staff_engineer"
+        ],
+        "Senior Storekeeper": [
+            "pg_sn_storekeeper",
+            "pg_storekeeper"
+        ],
+        "Senior Supervisor": [
+            "pg_sn_supervisor",
+            "pg_supervisor"
+        ],
+        "Senior Technician": [
+            "pg_sn_technician",
+            "pg_technician"
+        ],
+        "Senior Trainer": [
+            "pg_sn_trainer",
+            "pg_trainer"
+        ],
+        "Staff Engineer": [
+            "pg_staff_engineer"
+        ],
+        "Storekeeper": [
+            "pg_storekeeper"
+        ],
+        "Supervisor": [
+            "pg_supervisor"
+        ],
+        "Technician": [
+            "pg_technician"
+        ],
+        "Trainer": [
+            "pg_trainer"
+        ]
+    },
+    "shifts": {
+        "3G2S": [
+            "ss_3g2s"
+        ],
+        "G1 (3G2S)": [
+            "ss_3g2s_g1",
+            "ss_3g2s"
+        ],
+        "G2 (3G2S)": [
+            "ss_3g2s_g2",
+            "ss_3g2s"
+        ],
+        "G3 (3G2S)": [
+            "ss_3g2s_g3",
+            "ss_3g2s"
+        ],
+        "3G3S": [
+            "ss_3g3s"
+        ],
+        "G1 (3G3S)": [
+            "ss_3g3s_g1",
+            "ss_3g3s"
+        ],
+        "G2 (3G3S)": [
+            "ss_3g3s_g2",
+            "ss_3g3s"
+        ],
+        "G3 (3G3S)": [
+            "ss_3g3s_g3",
+            "ss_3g3s"
+        ],
+        "4G3S": [
+            "ss_4g3s"
+        ],
+        "G1 (4G3S)": [
+            "ss_4g3s_g1",
+            "ss_4g3s"
+        ],
+        "G2 (4G3S)": [
+            "ss_4g3s_g2",
+            "ss_4g3s"
+        ],
+        "G3 (4G3S)": [
+            "ss_4g3s_g3",
+            "ss_4g3s"
+        ],
+        "G4 (4G3S)": [
+            "ss_4g3s_g4",
+            "ss_4g3s"
+        ],
+        "Normal": [
+            "ss_normal"
+        ]
+    }
+}
