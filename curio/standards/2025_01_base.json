@@ -95,8 +95,8 @@
         },
         {
             "id": 9,
-            "name": "Vendor Contractor",
-            "description": "A guest that is from companies, our organization contract service from, and will be part of and perform jobs in the company",
+            "name": "Fixed Term Contract",
+            "description": "A new joiner that is converted to an fixed term contractor",
             "tag": "Staff",
             "home": "staff"
         },
@@ -106,6 +106,13 @@
             "description": "A new joiner that is converted to an employee",
             "tag": "Staff",
             "home": "staff"
+        },
+                {
+            "id": 11,
+            "name": "Supplier",
+            "description": "A guest that is from companies, our organization contract service from, and will be part of and perform jobs in the company",
+            "tag": "Vendor Contractor",
+            "home": "about"
         },
         {
             "id": 12,
