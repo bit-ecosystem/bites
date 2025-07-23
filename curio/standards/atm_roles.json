@@ -237,53 +237,54 @@
             "ss_3g2s"
         ],
         "G1 (3G2S)": [
-            "ss_3g2s_g1",
+            "ss_3g2s_a",
             "ss_3g2s"
         ],
         "G2 (3G2S)": [
-            "ss_3g2s_g2",
+            "ss_3g2s_b",
             "ss_3g2s"
         ],
         "G3 (3G2S)": [
-            "ss_3g2s_g3",
+            "ss_3g2s_c",
             "ss_3g2s"
         ],
         "3G3S": [
             "ss_3g3s"
         ],
         "G1 (3G3S)": [
-            "ss_3g3s_g1",
+            "ss_3g3s_d",
             "ss_3g3s"
         ],
         "G2 (3G3S)": [
-            "ss_3g3s_g2",
+            "ss_3g3s_e",
             "ss_3g3s"
         ],
         "G3 (3G3S)": [
-            "ss_3g3s_g3",
+            "ss_3g3s_f",
             "ss_3g3s"
         ],
         "4G3S": [
             "ss_4g3s"
         ],
         "G1 (4G3S)": [
-            "ss_4g3s_g1",
+            "ss_4g3s_w",
             "ss_4g3s"
         ],
         "G2 (4G3S)": [
-            "ss_4g3s_g2",
+            "ss_4g3s_x",
             "ss_4g3s"
         ],
         "G3 (4G3S)": [
-            "ss_4g3s_g3",
+            "ss_4g3s_y",
             "ss_4g3s"
         ],
         "G4 (4G3S)": [
-            "ss_4g3s_g4",
+            "ss_4g3s_z",
             "ss_4g3s"
         ],
         "Normal": [
-            "ss_normal"
+            "ss_normal",
+            "ss_normal_n"
         ]
     }
 }
