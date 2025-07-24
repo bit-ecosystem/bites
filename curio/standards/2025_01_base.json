@@ -124,7 +124,7 @@
     ],
     "service_menus": [
         {
-            "category": "Staff Self Service",
+            "category": "sss",
             "title": "Performance Management",
             "description": "Link to module of Performance Management; target setting and target achievement.",
             "domain_id": 2,
@@ -133,7 +133,7 @@
             "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/on-target.svg"
         },
         {
-            "category": "Staff Self Service",
+            "category": "sss",
             "title": "Communication and Collaboration",
             "description": "See what the current company communications.",
             "domain_id": 4,
@@ -142,7 +142,7 @@
             "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/communication.svg"
         },
         {
-            "category": "Staff Self Service",
+            "category": "sss",
             "title": "Suggestions and Ideas",
             "description": "Suggests ideas of improvement to our organization.,",
             "domain_id": 1,
@@ -151,7 +151,7 @@
             "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/business-idea.svg"
         },
         {
-            "category": "Staff Self Service",
+            "category": "sss",
             "title": "Payroll and Compensation",
             "description": "Link to your payroll module.",
             "domain_id": 2,
@@ -160,7 +160,7 @@
             "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/cash-2.svg"
         },
         {
-            "category": "Staff Self Service",
+            "category": "sss",
             "title": "Expense Management",
             "description": "Link to module of Claims, and perform your claim reimbursement based on the entitlements given to you.",
             "domain_id": 4,
@@ -169,7 +169,7 @@
             "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/checklist-3.svg"
         },
         {
-            "category": "Staff Self Service",
+            "category": "sss",
             "title": "Benefits and Entitlements",
             "description": "View your benefits and entitlement based on your rank in the company.",
             "domain_id": 2,
@@ -178,7 +178,7 @@
             "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/cash-distribution-networ.svg"
         },
         {
-            "category": "Staff Self Service",
+            "category": "sss",
             "title": "Leave and Attendance",
             "description": "Submit your leave requests, and also your attendance records.",
             "domain_id": 2,
@@ -187,7 +187,7 @@
             "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/scheduled.svg"
         },
         {
-            "category": "Staff Self Service",
+            "category": "sss",
             "title": "Onboarding and Offboarding",
             "description": "See procedures of getting onboarded this organization or leaving/offboarding.",
             "domain_id": 3,
@@ -196,7 +196,7 @@
             "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/receive-package.svg"
         },
         {
-            "category": "Staff Self Service",
+            "category": "sss",
             "title": "Support and Helpdesk",
             "description": "Link to any requests or incident report you may have.",
             "domain_id": 1,
@@ -205,7 +205,7 @@
             "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/online-help.svg"
         },
         {
-            "category": "Operations",
+            "category": "op",
             "title": "Operations Area",
             "description": "View Operations Dashboard",
             "domain_id": 7,
@@ -214,7 +214,7 @@
             "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/stats-on-cell.svg"
         },
         {
-            "category": "Operations",
+            "category": "op",
             "title": "Production Dashboard",
             "description": "View Production Dashboard",
             "domain_id": 7,
@@ -223,7 +223,7 @@
             "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/rise.svg"
         },
         {
-            "category": "Support",
+            "category": "sp",
             "title": "Support",
             "description": "View Support Menu",
             "domain_id": 1,
@@ -232,7 +232,7 @@
             "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/hand-raised.svg"
         },
         {
-            "category": "Learning",
+            "category": "lm",
             "title": "Learning",
             "description": "Go to LMS",
             "domain_id": 3,
@@ -241,7 +241,7 @@
             "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/tutorials.svg"
         },
         {
-            "category": "Knowledge Base",
+            "category": "kb",
             "title": "Knowledge Base",
             "description": "View Knowledge Base site",
             "domain_id": 1,
@@ -250,7 +250,7 @@
             "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/open-book.svg"
         },
         {
-            "category": "Ideas",
+            "category": "ip",
             "title": "Employee Improvement Proposal (EIP)",
             "description": "Submit proposal for improvement",
             "domain_id": 6,
@@ -259,7 +259,7 @@
             "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/business-idea.svg"
         },
         {
-            "category": "Ideas",
+            "category": "ip",
             "title": "U See U Act",
             "description": "Report Security & Safety Finding",
             "domain_id": 1,
@@ -268,7 +268,7 @@
             "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/useeuact.svg"
         },
         {
-            "category": "Performance Management",
+            "category": "pm",
             "title": "Performance Reviews",
             "description": "Participate in performance review processes, view feedback, and set goals.",
             "domain_id": 2,
@@ -278,7 +278,7 @@
             "parent_id": 1
         },
         {
-            "category": "Performance Management",
+            "category": "pm",
             "title": "Training and Development",
             "description": "Access training materials, enroll in courses, and track progress on development plans.",
             "domain_id": 1,
@@ -288,7 +288,7 @@
             "parent_id": 1
         },
         {
-            "category": "Communication and Collaboration",
+            "category": "cc",
             "title": "Company Announcements",
             "description": "Stay updated with company news, announcements, and policy changes.",
             "domain_id": 4,
@@ -298,7 +298,7 @@
             "parent_id": 2
         },
         {
-            "category": "Communication and Collaboration",
+            "category": "cc",
             "title": "Internal Messaging",
             "description": "Communicate with colleagues and managers through internal messaging systems.",
             "domain_id": 4,
@@ -308,7 +308,7 @@
             "parent_id": 2
         },
         {
-            "category": "Payroll and Compensation",
+            "category": "pc",
             "title": "Pay slip",
             "description": "Access and download monthly or bi-weekly pay slips.",
             "domain_id": 2,
@@ -318,7 +318,7 @@
             "parent_id": 2
         },
         {
-            "category": "Payroll and Compensation",
+            "category": "pc",
             "title": "Tax Information",
             "description": "View and update tax-related information, including EA forms and other tax documents.",
             "domain_id": 2,
@@ -328,7 +328,7 @@
             "parent_id": 4
         },
         {
-            "category": "Payroll and Compensation",
+            "category": "pc",
             "title": "Compensation Details",
             "description": "Check salary structure, bonuses, and other compensation-related information.",
             "domain_id": 2,
@@ -338,7 +338,7 @@
             "parent_id": 4
         },
         {
-            "category": "Expense Management",
+            "category": "em",
             "title": "Expense Claims",
             "description": "Submit and track expense claims for reimbursement.",
             "domain_id": 4,
@@ -348,7 +348,7 @@
             "parent_id": 5
         },
         {
-            "category": "Expense Management",
+            "category": "em",
             "title": "Expense Policies",
             "description": "Access company policies related to travel and other expenses.",
             "domain_id": 5,
@@ -358,7 +358,7 @@
             "parent_id": 5
         },
         {
-            "category": "Benefits and Entitlements",
+            "category": "be",
             "title": "Benefits Enrollment",
             "description": "Enroll in or update health insurance, retirement plans, and other employee benefits.",
             "domain_id": 2,
@@ -368,7 +368,7 @@
             "parent_id": 6
         },
         {
-            "category": "Benefits and Entitlements",
+            "category": "be",
             "title": "Benefits Information",
             "description": "Access information about various benefits offered by the company.",
             "domain_id": 5,
@@ -378,7 +378,7 @@
             "parent_id": 6
         },
         {
-            "category": "Benefits and Entitlements",
+            "category": "be",
             "title": "Company-issued Equipment",
             "description": "View Equipment assigned",
             "domain_id": 2,
@@ -388,7 +388,7 @@
             "parent_id": 6
         },
         {
-            "category": "Leave and Attendance",
+            "category": "la",
             "title": "Leave Requests",
             "description": "Apply for leave, check leave balances, and track the status of leave requests.",
             "domain_id": 2,
@@ -398,7 +398,7 @@
             "parent_id": 2
         },
         {
-            "category": "Leave and Attendance",
+            "category": "la",
             "title": "Attendance Records",
             "description": "View attendance history, clock-in and clock-out times, and manage time-off requests.",
             "domain_id": 2,
@@ -408,7 +408,7 @@
             "parent_id": 7
         },
         {
-            "category": "Onboarding and Offboarding",
+            "category": "oo",
             "title": "Onboarding Checklists",
             "description": "Complete onboarding tasks and access necessary resources for new hires.",
             "domain_id": 3,
@@ -418,7 +418,7 @@
             "parent_id": 8
         },
         {
-            "category": "Onboarding and Offboarding",
+            "category": "oo",
             "title": "Exit Procedures",
             "description": "Manage offboarding processes, including exit interviews and return of company property.",
             "domain_id": 3,
@@ -428,7 +428,7 @@
             "parent_id": 8
         },
         {
-            "category": "Support and Helpdesk",
+            "category": "sh",
             "title": "Helpdesk Tickets",
             "description": "Submit and track support tickets for",
             "domain_id": 1,
@@ -438,7 +438,7 @@
             "parent_id": 9
         },
         {
-            "category": "Support and Helpdesk",
+            "category": "sh",
             "title": "Knowledge Base",
             "description": "Access FAQs, guides, and other support resources.",
             "domain_id": 1,
