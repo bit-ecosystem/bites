@@ -39,77 +39,77 @@
     "user_types": [
         {
             "id": 1,
-            "type_name": "un_guest",
+            "name": "un_guest",
             "description": "Any registered user is by default a guest, minimally has username and email address",
             "tag": "",
             "home": "about"
         },
         {
             "id": 2,
-            "type_name": "un_staff",
+            "name": "un_staff",
             "description": "A temporary label placed on Guest/Customer/Supplier/Candidate visiting our premises",
             "tag": "Candidate",
             "home": ""
         },
         {
             "id": 3,
-            "type_name": "un_admin",
+            "name": "un_admin",
             "description": "Administrator of app",
             "tag": "SuperUser",
             "home": "admin"
         },
         {
             "id": 4,
-            "type_name": "ut_customer",
+            "name": "ut_customer",
             "description": "A guest that is from companies, our business sells and do transact with. Added Guest info for visiting purpose; includes, contact and company association.",
             "tag": "Visitor",
             "home": "about"
         },
         {
             "id": 5,
-            "type_name": "ut_supplier",
+            "name": "ut_supplier",
             "description": "A guest that is from companies, our business buys and do transact with. Added Guest info for visiting purpose; includes, contact and company association.",
             "tag": "Visitor",
             "home": "about"
         },
         {
             "id": 6,
-            "type_name": "ut_candidate",
+            "name": "ut_candidate",
             "description": "A guest that is a potential hire into company. Added Guest info for visiting purpose; includes, contact and job application.",
             "tag": "Visitor",
             "home": "jobApp"
         },
         {
             "id": 7,
-            "type_name": "ut_newbie",
+            "name": "ut_newbie",
             "description": "A temporary label placed on Guest converting to be a frequent patron to our premises, going thru onboarding program. Added access to onboarding module.",
             "tag": "Staff",
             "home": "onboard"
         },
         {
             "id": 8,
-            "type_name": "ut_tpc",
+            "name": "ut_tpc",
             "description": "Post asignment after onboarding, remains a guest that is from companies, our organization contract service from, and will be part of and perform jobs in the company. Guest is known as Third Party Contractor",
             "tag": "Visitor",
             "home": ""
         },
         {
             "id": 9,
-            "type_name": "ut_employee",
+            "name": "ut_employee",
             "description": "Post asignment after onboarding, converted from guest to staff, a new joiner that is converted to an employee, contracted to end at default retirement age.",
             "tag": "Staff",
             "home": "staff"
         },
         {
             "id": 10,
-            "type_name": "ut_ftc",
+            "name": "ut_ftc",
             "description": "Post asignment after onboarding, converted from guest to staff, a new joiner that is converted to a fixed term contractor, contracted to end based on contract terms.",
             "tag": "Staff",
             "home": "staff"
         },
         {
             "id": 11,
-            "type_name": "ut_intern",
+            "name": "ut_intern",
             "description": "Post asignment after onboarding, converted from guest to staff, a temporary joiner that is from learning institution, contracted over period of internship.",
             "tag": "Staff",
             "home": "staff"
