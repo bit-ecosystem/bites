@@ -251,8 +251,8 @@
         },
         {
             "category": "ip",
-            "title": "Employee Improvement Proposal (EIP)",
-            "description": "Submit proposal for improvement",
+            "title": "EIP",
+            "description": "Submit proposal for Employee Improvement Proposal (EIP)",
             "domain_id": 6,
             "path": "create",
             "param": "",
@@ -260,7 +260,7 @@
         },
         {
             "category": "ip",
-            "title": "U See U Act",
+            "title": "USeeUAct",
             "description": "Report Security & Safety Finding",
             "domain_id": 1,
             "path": "staff/improvement-ideas",
