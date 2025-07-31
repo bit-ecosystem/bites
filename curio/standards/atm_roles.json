@@ -286,5 +286,339 @@
             "ss_normal",
             "ss_normal_n"
         ]
-    }
+    },
+    "roles": [
+        {
+            "name": "ou_atm",
+            "description": "Role for ATM as Organizational Unit"
+        },
+        {
+            "name": "ov_bu",
+            "description": "Role for ATM-BU as Division"
+        },
+        {
+            "name": "od_bu",
+            "description": "Role for ATM-Business Unit (ATM-3280) as Department"
+        },
+        {
+            "name": "ov_fa",
+            "description": "Role for ATM-FA as Division"
+        },
+        {
+            "name": "od_fa",
+            "description": "Role for ATM-Finance & Accounting (ATM-3140) as Department"
+        },
+        {
+            "name": "ov_gm",
+            "description": "Role for ATM-GM as Division"
+        },
+        {
+            "name": "od_ftpm",
+            "description": "Role for ATM-Factory Technical Program Management (ATM-3310) as Department"
+        },
+        {
+            "name": "od_gm",
+            "description": "Role for ATM-General Manager (ATM-3270) as Department"
+        },
+        {
+            "name": "ov_hr",
+            "description": "Role for ATM-HR as Division"
+        },
+        {
+            "name": "od_hr",
+            "description": "Role for ATM-Human Resources (ATM-3100) as Department"
+        },
+        {
+            "name": "od_ss",
+            "description": "Role for ATM-Security & Safety (ATM-3220) as Department"
+        },
+        {
+            "name": "ov_ie",
+            "description": "Role for ATM-IE as Division"
+        },
+        {
+            "name": "od_fd",
+            "description": "Role for ATM-Facility (ATM-3190) as Department"
+        },
+        {
+            "name": "od_ie",
+            "description": "Role for ATM-Industrial Engineering (ATM-3180) as Department"
+        },
+        {
+            "name": "ov_it",
+            "description": "Role for ATM-IT as Division"
+        },
+        {
+            "name": "od_it",
+            "description": "Role for ATM-Information Technology (ATM-3120) as Department"
+        },
+        {
+            "name": "ov_me",
+            "description": "Role for ATM-ME as Division"
+        },
+        {
+            "name": "od_mefol",
+            "description": "Role for ATM-Manufacturing Engineering Front Of Line (ATM-3350) as Department"
+        },
+        {
+            "name": "od_meps",
+            "description": "Role for ATM-Manufacturing Engineering Production & System (ATM-3370) as Department"
+        },
+        {
+            "name": "od_met",
+            "description": "Role for ATM-Manufacturing Engineering Test (ATM-3380) as Department"
+        },
+        {
+            "name": "ov_mo",
+            "description": "Role for ATM-MO as Division"
+        },
+        {
+            "name": "od_m1",
+            "description": "Role for ATM-Manufacturing 1 (ATM-3250) as Department"
+        },
+        {
+            "name": "od_m2",
+            "description": "Role for ATM-Manufacturing 2 (ATM-3260) as Department"
+        },
+        {
+            "name": "od_m3",
+            "description": "Role for ATM-Manufacturing 3 (ATM-3290) as Department"
+        },
+        {
+            "name": "od_m4",
+            "description": "Role for ATM-Manufacturing 4 (ATM-3320) as Department"
+        },
+        {
+            "name": "od_m5",
+            "description": "Role for ATM-Manufacturing 5 (ATM-3340) as Department"
+        },
+        {
+            "name": "od_m6",
+            "description": "Role for ATM-Manufacturing 6 (ATM-3400) as Department"
+        },
+        {
+            "name": "ov_pc",
+            "description": "Role for ATM-PC as Division"
+        },
+        {
+            "name": "od_pcs",
+            "description": "Role for ATM-Planning & Customer Services (ATM-3150) as Department"
+        },
+        {
+            "name": "ov_pl",
+            "description": "Role for ATM-PL as Division"
+        },
+        {
+            "name": "od_pl",
+            "description": "Role for ATM-Procurement & Logistic (ATM-3110) as Department"
+        },
+        {
+            "name": "ov_qa",
+            "description": "Role for ATM-QA as Division"
+        },
+        {
+            "name": "od_qa",
+            "description": "Role for ATM-Quality Assurance (ATM-3200) as Department"
+        },
+        {
+            "name": "ov_rd",
+            "description": "Role for ATM-RD as Division"
+        },
+        {
+            "name": "od_erd",
+            "description": "Role for ATM-Engineering Research & Development (ATM-3170) as Department"
+        },
+        {
+            "name": "od_pe",
+            "description": "Role for ATM-Product Engineering (ATM-3210) as Department"
+        },
+        {
+            "name": "pg_buyer",
+            "description": "Role for Buyer as Job Position Group"
+        },
+        {
+            "name": "pg_sn_buyer",
+            "description": "Role for Senior Buyer as Job Position Group"
+        },
+        {
+            "name": "pg_chargeman",
+            "description": "Role for Chargeman as Job Position Group"
+        },
+        {
+            "name": "pg_sn_chargeman",
+            "description": "Role for Senior Chargeman as Job Position Group"
+        },
+        {
+            "name": "pg_chief_specialist",
+            "description": "Role for Chief Specialist as Job Position Group"
+        },
+        {
+            "name": "pg_clerk",
+            "description": "Role for Clerk as Job Position Group"
+        },
+        {
+            "name": "pg_sn_clerk",
+            "description": "Role for Senior Clerk as Job Position Group"
+        },
+        {
+            "name": "pg_director",
+            "description": "Role for Director as Job Position Group"
+        },
+        {
+            "name": "pg_sn_director",
+            "description": "Role for Senior Director as Job Position Group"
+        },
+        {
+            "name": "pg_driver",
+            "description": "Role for Driver as Job Position Group"
+        },
+        {
+            "name": "pg_sn_driver",
+            "description": "Role for Senior Driver as Job Position Group"
+        },
+        {
+            "name": "pg_engineer",
+            "description": "Role for Engineer as Job Position Group"
+        },
+        {
+            "name": "pg_sn_engineer",
+            "description": "Role for Senior Engineer as Job Position Group"
+        },
+        {
+            "name": "pg_industrial_trainee",
+            "description": "Role for Industrial Trainee as Job Position Group"
+        },
+        {
+            "name": "pg_manager",
+            "description": "Role for Manager as Job Position Group"
+        },
+        {
+            "name": "pg_sn_manager",
+            "description": "Role for Senior Manager as Job Position Group"
+        },
+        {
+            "name": "pg_officer",
+            "description": "Role for Officer as Job Position Group"
+        },
+        {
+            "name": "pg_sn_officer",
+            "description": "Role for Senior Officer as Job Position Group"
+        },
+        {
+            "name": "pg_operator",
+            "description": "Role for Operator as Job Position Group"
+        },
+        {
+            "name": "pg_sn_operator",
+            "description": "Role for Senior Operator as Job Position Group"
+        },
+        {
+            "name": "pg_planner",
+            "description": "Role for Planner as Job Position Group"
+        },
+        {
+            "name": "pg_sn_planner",
+            "description": "Role for Senior Planner as Job Position Group"
+        },
+        {
+            "name": "pg_security_guard",
+            "description": "Role for Security Guard as Job Position Group"
+        },
+        {
+            "name": "pg_staff_engineer",
+            "description": "Role for Staff Engineer as Job Position Group"
+        },
+        {
+            "name": "pg_sn_staff_engineer",
+            "description": "Role for Senior Staff Engineer as Job Position Group"
+        },
+        {
+            "name": "pg_storekeeper",
+            "description": "Role for Storekeeper as Job Position Group"
+        },
+        {
+            "name": "pg_sn_storekeeper",
+            "description": "Role for Senior Storekeeper as Job Position Group"
+        },
+        {
+            "name": "pg_supervisor",
+            "description": "Role for Supervisor as Job Position Group"
+        },
+        {
+            "name": "pg_sn_supervisor",
+            "description": "Role for Senior Supervisor as Job Position Group"
+        },
+        {
+            "name": "pg_technician",
+            "description": "Role for Technician as Job Position Group"
+        },
+        {
+            "name": "pg_sn_technician",
+            "description": "Role for Senior Technician as Job Position Group"
+        },
+        {
+            "name": "pg_trainer",
+            "description": "Role for Trainer as Job Position Group"
+        },
+        {
+            "name": "pg_sn_trainer",
+            "description": "Role for Senior Trainer as Job Position Group"
+        },
+        {
+            "name": "ss_normal",
+            "description": "Role for Normal as Staff Shift"
+        },
+        {
+            "name": "ss_3g3s",
+            "description": "Role for 3G3S as Staff Shift"
+        },
+        {
+            "name": "ss_3g3s_A",
+            "description": "Role for A as Staff Shift"
+        },
+        {
+            "name": "ss_3g3s_B",
+            "description": "Role for B as Staff Shift"
+        },
+        {
+            "name": "ss_3g3s_C",
+            "description": "Role for C as Staff Shift"
+        },
+        {
+            "name": "ss_3g2s",
+            "description": "Role for 3G2S as Staff Shift"
+        },
+        {
+            "name": "ss_3g2s_D",
+            "description": "Role for D as Staff Shift"
+        },
+        {
+            "name": "ss_3g2s_E",
+            "description": "Role for E as Staff Shift"
+        },
+        {
+            "name": "ss_3g2s_F",
+            "description": "Role for F as Staff Shift"
+        },
+        {
+            "name": "ss_4g3s",
+            "description": "Role for 4G3S as Staff Shift"
+        },
+        {
+            "name": "ss_4g3s_W",
+            "description": "Role for W as Staff Shift"
+        },
+        {
+            "name": "ss_4g3s_X",
+            "description": "Role for X as Staff Shift"
+        },
+        {
+            "name": "ss_4g3s_Y",
+            "description": "Role for Y as Staff Shift"
+        },
+        {
+            "name": "ss_4g3s_Z",
+            "description": "Role for Z as Staff Shift"
+        }
+    ]
 }
