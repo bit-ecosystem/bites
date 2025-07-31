@@ -89,28 +89,28 @@
         {
             "id": 8,
             "name": "ut_tpc",
-            "description": "Post asignment after onboarding, remains a guest that is from companies, our organization contract service from, and will be part of and perform jobs in the company. Guest is known as Third Party Contractor",
+            "description": "Post assignment after onboarding, remains a guest that is from companies, our organization contract service from, and will be part of and perform jobs in the company. Guest is known as Third Party Contractor",
             "tag": "Visitor",
             "home": ""
         },
         {
             "id": 9,
             "name": "ut_employee",
-            "description": "Post asignment after onboarding, converted from guest to staff, a new joiner that is converted to an employee, contracted to end at default retirement age.",
+            "description": "Post assignment after onboarding, converted from guest to staff, a new joiner that is converted to an employee, contracted to end at default retirement age.",
             "tag": "Staff",
             "home": "staff"
         },
         {
             "id": 10,
             "name": "ut_ftc",
-            "description": "Post asignment after onboarding, converted from guest to staff, a new joiner that is converted to a fixed term contractor, contracted to end based on contract terms.",
+            "description": "Post assignment after onboarding, converted from guest to staff, a new joiner that is converted to a fixed term contractor, contracted to end based on contract terms.",
             "tag": "Staff",
             "home": "staff"
         },
         {
             "id": 11,
             "name": "ut_intern",
-            "description": "Post asignment after onboarding, converted from guest to staff, a temporary joiner that is from learning institution, contracted over period of internship.",
+            "description": "Post assignment after onboarding, converted from guest to staff, a temporary joiner that is from learning institution, contracted over period of internship.",
             "tag": "Staff",
             "home": "staff"
         }
