@@ -47,7 +47,7 @@
         {
             "id": 2,
             "name": "un_staff",
-            "description": "A temporary label placed on Guest/Customer/Supplier/Candidate visiting our premises",
+            "description": "Any registered user that is on the organization payroll (Employee, FTC, Intern)",
             "tag": "Candidate",
             "home": ""
         },
@@ -117,88 +117,8 @@
     ],
     "service_menus": [
         {
-            "category": "sss",
-            "title": "Performance Management",
-            "description": "Link to module of Performance Management; target setting and target achievement.",
-            "domain_id": 2,
-            "path": "performance",
-            "param": "#data",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/on-target.svg"
-        },
-        {
-            "category": "sss",
-            "title": "Communication and Collaboration",
-            "description": "See what the current company communications.",
-            "domain_id": 4,
-            "path": "",
-            "param": "Communication%20and%20Collaboration",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/communication.svg"
-        },
-        {
-            "category": "sss",
-            "title": "Suggestions and Ideas",
-            "description": "Suggests ideas of improvement to our organization.,",
-            "domain_id": 1,
-            "path": "staff/improvement-ideas",
-            "param": "",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/business-idea.svg"
-        },
-        {
-            "category": "sss",
-            "title": "Payroll and Compensation",
-            "description": "Link to your payroll module.",
-            "domain_id": 2,
-            "path": "payroll",
-            "param": "#data",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/cash-2.svg"
-        },
-        {
-            "category": "sss",
-            "title": "Expense Management",
-            "description": "Link to module of Claims, and perform your claim reimbursement based on the entitlements given to you.",
-            "domain_id": 4,
-            "path": "",
-            "param": "Expense%20Management",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/checklist-3.svg"
-        },
-        {
-            "category": "sss",
-            "title": "Benefits and Entitlements",
-            "description": "View your benefits and entitlement based on your rank in the company.",
-            "domain_id": 2,
-            "path": "benefit",
-            "param": "#data",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/cash-distribution-networ.svg"
-        },
-        {
-            "category": "sss",
-            "title": "Leave and Attendance",
-            "description": "Submit your leave requests, and also your attendance records.",
-            "domain_id": 2,
-            "path": "leave",
-            "param": "#data",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/scheduled.svg"
-        },
-        {
-            "category": "sss",
-            "title": "Onboarding and Offboarding",
-            "description": "See procedures of getting onboarded this organization or leaving/offboarding.",
-            "domain_id": 3,
-            "path": "onboard",
-            "param": "#data",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/receive-package.svg"
-        },
-        {
-            "category": "sss",
-            "title": "Support and Helpdesk",
-            "description": "Link to any requests or incident report you may have.",
-            "domain_id": 1,
-            "path": "staff/support-menus",
-            "param": "",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/online-help.svg"
-        },
-        {
             "category": "op",
+            "role": "ov_mo, ov_me",
             "title": "Operations Area",
             "description": "View Operations Dashboard",
             "domain_id": 7,
@@ -208,6 +128,7 @@
         },
         {
             "category": "op",
+            "role": "ou_atm",
             "title": "Production Dashboard",
             "description": "View Production Dashboard",
             "domain_id": 7,
@@ -217,6 +138,7 @@
         },
         {
             "category": "sp",
+            "role": "ou_atm",
             "title": "Support",
             "description": "View Support Menu",
             "domain_id": 1,
@@ -226,24 +148,27 @@
         },
         {
             "category": "lm",
+            "role": "un_staff",
             "title": "Learning",
             "description": "Go to LMS",
-            "domain_id": 3,
-            "path": "development",
-            "param": "#menu",
+            "domain_id": 1,
+            "path": "k-base",
+            "param": "",
             "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/tutorials.svg"
         },
         {
             "category": "kb",
+            "role": "ou_atm",
             "title": "Knowledge Base",
             "description": "View Knowledge Base site",
             "domain_id": 1,
-            "path": "staff/knowledge-menus",
+            "path": "k-base",
             "param": "",
             "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/open-book.svg"
         },
         {
             "category": "ip",
+            "role": "ou_atm",
             "title": "EIP",
             "description": "Submit proposal for Employee Improvement Proposal (EIP)",
             "domain_id": 6,
@@ -253,6 +178,7 @@
         },
         {
             "category": "ip",
+            "role": "ou_atm",
             "title": "USeeUAct",
             "description": "Report Security & Safety Finding",
             "domain_id": 1,
@@ -262,183 +188,183 @@
         },
         {
             "category": "pm",
+            "role": "un_staff",
             "title": "Performance Reviews",
             "description": "Participate in performance review processes, view feedback, and set goals.",
-            "domain_id": 2,
-            "path": "performance",
+            "domain_id": 1,
+            "path": "strategy/target",
             "param": "#review",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/measurement.svg",
-            "parent_id": 1
+            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/measurement.svg"
         },
         {
             "category": "pm",
+            "role": "un_staff",
             "title": "Training and Development",
             "description": "Access training materials, enroll in courses, and track progress on development plans.",
             "domain_id": 1,
             "path": "staff/learning-menus",
             "param": "#menu",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/tutorials.svg",
-            "parent_id": 1
+            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/tutorials.svg"
         },
         {
             "category": "cc",
+            "role": "ou_atm",
             "title": "Company Announcements",
             "description": "Stay updated with company news, announcements, and policy changes.",
             "domain_id": 4,
             "path": "",
             "param": "Company%20Announcements",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/questions-answers.svg",
-            "parent_id": 2
+            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/questions-answers.svg"
         },
         {
             "category": "cc",
+            "role": "ou_atm",
             "title": "Internal Messaging",
             "description": "Communicate with colleagues and managers through internal messaging systems.",
             "domain_id": 4,
             "path": "",
             "param": "Internal%20Messaging",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/typing-message.svg",
-            "parent_id": 2
+            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/typing-message.svg"
         },
         {
             "category": "pc",
+            "role": "un_staff",
             "title": "Pay slip",
             "description": "Access and download monthly or bi-weekly pay slips.",
             "domain_id": 2,
             "path": "RC/MyPayslip",
             "param": "",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/money-in-wallet.svg",
-            "parent_id": 2
+            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/money-in-wallet.svg"
         },
         {
             "category": "pc",
+            "role": "un_staff",
             "title": "Tax Information",
             "description": "View and update tax-related information, including EA forms and other tax documents.",
             "domain_id": 2,
             "path": "payroll",
             "param": "#history",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/percentage-1.svg",
-            "parent_id": 4
+            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/percentage-1.svg"
         },
         {
             "category": "pc",
+            "role": "un_staff",
             "title": "Compensation Details",
             "description": "Check salary structure, bonuses, and other compensation-related information.",
             "domain_id": 2,
             "path": "payroll",
             "param": "#history",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/transcation.svg",
-            "parent_id": 4
+            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/transcation.svg"
         },
         {
             "category": "em",
+            "role": "un_staff",
             "title": "Expense Claims",
             "description": "Submit and track expense claims for reimbursement.",
             "domain_id": 4,
             "path": "",
             "param": "Expense%20Claims",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/receipt.svg",
-            "parent_id": 5
+            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/receipt.svg"
         },
         {
             "category": "em",
+            "role": "un_staff",
             "title": "Expense Policies",
             "description": "Access company policies related to travel and other expenses.",
             "domain_id": 5,
             "path": "employeehandbook/html",
             "param": "#expense",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/spiral-notebook.svg",
-            "parent_id": 5
+            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/spiral-notebook.svg"
         },
         {
             "category": "be",
+            "role": "un_staff",
             "title": "Benefits Enrollment",
             "description": "Enroll in or update health insurance, retirement plans, and other employee benefits.",
             "domain_id": 2,
             "path": "benefit",
             "param": "#apply",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/membership-card.svg",
-            "parent_id": 6
+            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/membership-card.svg"
         },
         {
             "category": "be",
+            "role": "un_staff",
             "title": "Benefits Information",
             "description": "Access information about various benefits offered by the company.",
             "domain_id": 5,
             "path": "employeehandbook/html",
             "param": "#benefits",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/information.svg",
-            "parent_id": 6
+            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/information.svg"
         },
         {
             "category": "be",
+            "role": "ou_atm",
             "title": "Company-issued Equipment",
             "description": "View Equipment assigned",
             "domain_id": 2,
             "path": "benefit",
             "param": "#custody",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/toolbox.svg",
-            "parent_id": 6
+            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/toolbox.svg"
         },
         {
             "category": "la",
+            "role": "un_staff",
             "title": "Leave Requests",
             "description": "Apply for leave, check leave balances, and track the status of leave requests.",
             "domain_id": 2,
             "path": "LMS/LeaveApplication",
             "param": "",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/beach.svg",
-            "parent_id": 2
+            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/beach.svg"
         },
         {
             "category": "la",
+            "role": "ou_atm",
             "title": "Attendance Records",
             "description": "View attendance history, clock-in and clock-out times, and manage time-off requests.",
             "domain_id": 2,
             "path": "leave",
             "param": "#history",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/scheduled.svg",
-            "parent_id": 7
+            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/scheduled.svg"
         },
         {
             "category": "oo",
+            "role": "ut_newbie",
             "title": "Onboarding Checklists",
             "description": "Complete onboarding tasks and access necessary resources for new hires.",
-            "domain_id": 3,
-            "path": "onboard",
-            "param": "#checklist",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/checklist-2.svg",
-            "parent_id": 8
+            "domain_id": 1,
+            "path": "k-base",
+            "param": "",
+            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/checklist-2.svg"
         },
         {
             "category": "oo",
+            "role": "ou_atm",
             "title": "Exit Procedures",
             "description": "Manage offboarding processes, including exit interviews and return of company property.",
-            "domain_id": 3,
-            "path": "offboard",
-            "param": "#checklist",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/shoe-mat.svg",
-            "parent_id": 8
+            "domain_id": 1,
+            "path": "k-base",
+            "param": "",
+            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/shoe-mat.svg"
         },
         {
             "category": "sh",
+            "role": "ou_atm",
             "title": "Helpdesk Tickets",
             "description": "Submit and track support tickets for",
             "domain_id": 1,
             "path": "staff/helpdesks",
             "param": "",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/call-for-help.svg",
-            "parent_id": 9
+            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/call-for-help.svg"
         },
         {
             "category": "sh",
+            "role": "ou_atm",
             "title": "Knowledge Base",
             "description": "Access FAQs, guides, and other support resources.",
             "domain_id": 1,
             "path": "staff/knowledge-menus",
             "param": "",
-            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/open-book.svg",
-            "parent_id": 9
+            "image": "https://raw.githubusercontent.com/bit-ecosystem/bites/refs/heads/main/menu/open-book.svg"
         }
     ]
 }
